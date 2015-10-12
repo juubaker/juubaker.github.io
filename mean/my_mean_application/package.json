@@ -1,0 +1,16 @@
+{
+  "name": "my_mean_application",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.13.0",
+    "gulp": "latest"
+  },
+  "description": "name can no longer contain capital letters",
+  "main": "test.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
