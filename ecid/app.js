@@ -2,9 +2,20 @@ var app = angular.module("app", []);
 
 app.controller("ecidCtrl", function($scope, $http, ecidService) {
 
+  // add onclick event to table row
+  function addRowHandlers() {
+    var rows = document.getElementById("ecidsFoundTbl").rows;
+    for (i = 0; i < rows.length; i++) {
+        rows[i].onclick = function(){ return function(){
+               var id = this.cells[0].innerHTML;
+               alert("id:" + id);
+        };}(rows[i]);
+    }
+   }
+   window.onload = addRowHandlers();
+
   // pass the correpsonding container JSON filename to the service to retreive the JSON
   $scope.searchECID = function() {
-
     $scope.containerSelect();
     ecidService.updateEcid($scope.container);
     var promise = ecidService.getEcid();
@@ -70,14 +81,11 @@ app.controller("ecidCtrl", function($scope, $http, ecidService) {
     var ecidsTable = document.getElementById('ecidsFoundTbl');
 
     $('#ecidsFoundTbl > > tbody > tr').click(function() {
-        var dataDisplay = document.getElementById('dataDisplay');
-        dataDisplay.setValue($scope.ecids[row].data
-        })
-
+      var dataDisplay = document.getElementById('dataDisplay');
+      dataDisplay.setValue($scope.ecids[row].data);
     });
-}
+  }
 });
-
 
 // Service to use http.get to retreive the JSON from a remote server.  If JSON is a local file the cross-site security error occurs.
 app.service("ecidService", function($http, $q) {
@@ -89,8 +97,6 @@ app.service("ecidService", function($http, $q) {
     ecid = ecidSelected;
     console.log("in service:  " + ecidSelected);
     $http.get('http://juubaker.github.io/' + ecidSelected).then(function(data) {
-      console.log("in service 2:  " + ecidSelected);
-
       deferred.resolve(data);
     });
   };
