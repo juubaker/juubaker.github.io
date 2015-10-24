@@ -1,0 +1,1297 @@
+{
+   "pagedResult" : {
+      "count" : 1,
+      "tql" : "[[{{aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002}}]] FILTER {path:servers name!:metricdump} s.s.f=time s.s.o=asc s.q.d.l=3000",
+      "search" : [ {
+         "totalMatches" : 3,
+         "entities" : {
+            "count" : 3,
+            "entitiesDetail" : [ {
+               "id" : 33196848149,
+               "name" : "AdminServer-diagnostic.log",
+               "type" : "document",
+               "suites" : [ "jee.domain.bidomain", "jee.server.adminserver" ],
+               "startTime" : "2015-10-14T23:38:37.624+0000",
+               "endTime" : "2015-10-14T23:44:36.000+0000",
+               "startTimeMS" : 1444865917624,
+               "endTimeMS" : 1444866276000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 3,
+                  "linesDetail" : [ {
+                     "id" : 33196848149,
+                     "lineNumber" : 63,
+                     "time" : "2015-10-14T23:44:33.659Z",
+                     "timeMS" : 1444866273659,
+                     "data" : "[2015-10-14T23:44:33.659+00:00] [AdminServer] [ERROR] [] [org.apache.beehive.netui.pageflow.internal.AdapterManager] [tid: [STANDBY].ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: <anonymous>] [ecid: aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002,0] [APP: consoleapp] ServletContainerAdapter manager not initialized correctly."
+                  }, {
+                     "id" : 33196848149,
+                     "lineNumber" : 64,
+                     "time" : "2015-10-14T23:44:36.107Z",
+                     "timeMS" : 1444866276107,
+                     "data" : "[2015-10-14T23:44:36.107+00:00] [AdminServer] [ERROR] [WSM-02062] [oracle.wsm.resources.policymanager] [tid: [STANDBY].ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: <anonymous>] [ecid: aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002,0] [APP: wsm-pm] Unable to retrieve credentials for the specified csf-key FUSION_APPS_WSM_APPID-KEY[["
+                  }, {
+                     "id" : 33196848149,
+                     "lineNumber" : 66,
+                     "time" : "2015-10-14T23:44:36.107Z",
+                     "timeMS" : 1444866276107,
+                     "data" : "[[TieSig]] ft=\"2015-10-14T23:44:36.107+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.policymanager.PolicyManagerException\" ti=\"BeanFactory.getConfigFromCSF .. ExecuteThread.run\" tg=\"TieTagError\" h=\"TieSigHashProblemStacktracef55a90aa91ee422435ecd7920d56d985\" bh=\"TieSigBlockHashProblemStacktrace9b36745811d1989ed7ecacd8e26ac106\" ph=\"TieSigPrefixHashProblemStacktrace9e278ee0d844de98d4d607b5bec149bf\" bo=\"1\" ln=\"66\" nl=\"58\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002</v></fld>[[/Flds]] [[/TieSig]]"
+                  } ]
+               }
+            }, {
+               "id" : 33196847600,
+               "name" : "AdminServer.log",
+               "type" : "document",
+               "suites" : [ "jee.domain.bidomain", "jee.server.adminserver" ],
+               "startTime" : "2015-10-14T23:37:54.262+0000",
+               "endTime" : "2015-10-14T23:45:04.000+0000",
+               "startTimeMS" : 1444865874262,
+               "endTimeMS" : 1444866304000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 197,
+                  "linesDetail" : [ {
+                     "id" : 33196847600,
+                     "lineNumber" : 1013,
+                     "time" : "2015-10-14T23:44:18.182Z",
+                     "timeMS" : 1444866258182,
+                     "data" : "####<Oct 14, 2015 11:44:18 PM UTC> <Info> <WorkManager> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866258182> <BEA-002901> <Creating WorkManager \"consoleWorkManager\" for module \"null\" and application \"consoleapp\"> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1014,
+                     "time" : "2015-10-14T23:44:18.776Z",
+                     "timeMS" : 1444866258776,
+                     "data" : "####<Oct 14, 2015 11:44:18 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866258776> <BEA-001177> <Creating data source connection pool named EPMSystemRegistry, URL = jdbc:oracle:thin:@slc08bfu.us.oracle.com:1025/DB1025, Properties = user=FUSION_BIPLATFORM;oracle.net.CONNECT_TIMEOUT=120000;.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1015,
+                     "time" : "2015-10-14T23:44:18.905Z",
+                     "timeMS" : 1444866258905,
+                     "data" : "####<Oct 14, 2015 11:44:18 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866258905> <BEA-000626> <Free resources in pool \"EPMSystemRegistry\" will be tested every \"300\" seconds.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1016,
+                     "time" : "2015-10-14T23:44:18.923Z",
+                     "timeMS" : 1444866258923,
+                     "data" : "####<Oct 14, 2015 11:44:18 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866258923> <BEA-000640> <Resource Pool \"EPMSystemRegistry\" resuming by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1017,
+                     "time" : "2015-10-14T23:44:18.926Z",
+                     "timeMS" : 1444866258926,
+                     "data" : "####<Oct 14, 2015 11:44:18 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866258926> <BEA-001124> <Created Connection Pool named EPMSystemRegistry.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1018,
+                     "time" : "2015-10-14T23:44:18.926Z",
+                     "timeMS" : 1444866258926,
+                     "data" : "####<Oct 14, 2015 11:44:18 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866258926> <BEA-000638> <Resource Pool \"EPMSystemRegistry\" is being suspended by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1019,
+                     "time" : "2015-10-14T23:44:18.97Z",
+                     "timeMS" : 1444866258970,
+                     "data" : "####<Oct 14, 2015 11:44:18 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866258970> <BEA-000640> <Resource Pool \"EPMSystemRegistry\" resuming by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1020,
+                     "time" : "2015-10-14T23:44:18.972Z",
+                     "timeMS" : 1444866258972,
+                     "data" : "####<Oct 14, 2015 11:44:18 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866258972> <BEA-001174> <Creating data source named EPMSystemRegistry, JNDI Name = jdbc/EPMSystemRegistry.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1021,
+                     "time" : "2015-10-14T23:44:19.007Z",
+                     "timeMS" : 1444866259007,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259007> <BEA-001512> <Data source EPMSystemRegistry has been successfully created.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1022,
+                     "time" : "2015-10-14T23:44:19.011Z",
+                     "timeMS" : 1444866259011,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259011> <BEA-001177> <Creating data source connection pool named mds-owsm, URL = jdbc:oracle:thin:@slc08bfu.us.oracle.com:1025/DB1025, Properties = SendStreamAsBlob=true;user=FUSION_MDS;oracle.net.CONNECT_TIMEOUT=120000;.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1023,
+                     "time" : "2015-10-14T23:44:19.012Z",
+                     "timeMS" : 1444866259012,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259012> <BEA-000626> <Free resources in pool \"mds-owsm\" will be tested every \"300\" seconds.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1024,
+                     "time" : "2015-10-14T23:44:19.013Z",
+                     "timeMS" : 1444866259013,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259013> <BEA-000640> <Resource Pool \"mds-owsm\" resuming by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1025,
+                     "time" : "2015-10-14T23:44:19.013Z",
+                     "timeMS" : 1444866259013,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259013> <BEA-001124> <Created Connection Pool named mds-owsm.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1026,
+                     "time" : "2015-10-14T23:44:19.013Z",
+                     "timeMS" : 1444866259013,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259013> <BEA-000638> <Resource Pool \"mds-owsm\" is being suspended by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1027,
+                     "time" : "2015-10-14T23:44:19.024Z",
+                     "timeMS" : 1444866259024,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259024> <BEA-000640> <Resource Pool \"mds-owsm\" resuming by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1028,
+                     "time" : "2015-10-14T23:44:19.024Z",
+                     "timeMS" : 1444866259024,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259024> <BEA-001174> <Creating data source named mds-owsm, JNDI Name = jdbc/mds/owsm.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1029,
+                     "time" : "2015-10-14T23:44:19.035Z",
+                     "timeMS" : 1444866259035,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259035> <BEA-001512> <Data source mds-owsm has been successfully created.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1030,
+                     "time" : "2015-10-14T23:44:19.037Z",
+                     "timeMS" : 1444866259037,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259037> <BEA-001177> <Creating data source connection pool named opss-audit-DBDS, URL = jdbc:oracle:thin:@slc08bfu.us.oracle.com:1025/DB1025, Properties = user=FUSION_IAU_APPEND;oracle.net.CONNECT_TIMEOUT=120000;.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1031,
+                     "time" : "2015-10-14T23:44:19.037Z",
+                     "timeMS" : 1444866259037,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259037> <BEA-000626> <Free resources in pool \"opss-audit-DBDS\" will be tested every \"300\" seconds.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1032,
+                     "time" : "2015-10-14T23:44:19.037Z",
+                     "timeMS" : 1444866259037,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259037> <BEA-000640> <Resource Pool \"opss-audit-DBDS\" resuming by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1033,
+                     "time" : "2015-10-14T23:44:19.037Z",
+                     "timeMS" : 1444866259037,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259037> <BEA-001124> <Created Connection Pool named opss-audit-DBDS.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1034,
+                     "time" : "2015-10-14T23:44:19.037Z",
+                     "timeMS" : 1444866259037,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259037> <BEA-000638> <Resource Pool \"opss-audit-DBDS\" is being suspended by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1035,
+                     "time" : "2015-10-14T23:44:19.038Z",
+                     "timeMS" : 1444866259038,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259038> <BEA-000640> <Resource Pool \"opss-audit-DBDS\" resuming by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1036,
+                     "time" : "2015-10-14T23:44:19.038Z",
+                     "timeMS" : 1444866259038,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259038> <BEA-001174> <Creating data source named opss-audit-DBDS, JNDI Name = jdbc/AuditDB.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1037,
+                     "time" : "2015-10-14T23:44:19.041Z",
+                     "timeMS" : 1444866259041,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259041> <BEA-001512> <Data source opss-audit-DBDS has been successfully created.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1038,
+                     "time" : "2015-10-14T23:44:19.043Z",
+                     "timeMS" : 1444866259043,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259043> <BEA-001177> <Creating data source connection pool named opss-audit-viewDS, URL = jdbc:oracle:thin:@slc08bfu.us.oracle.com:1025/DB1025, Properties = user=FUSION_IAU_VIEWER;oracle.net.CONNECT_TIMEOUT=120000;.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1039,
+                     "time" : "2015-10-14T23:44:19.043Z",
+                     "timeMS" : 1444866259043,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259043> <BEA-000626> <Free resources in pool \"opss-audit-viewDS\" will be tested every \"300\" seconds.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1040,
+                     "time" : "2015-10-14T23:44:19.043Z",
+                     "timeMS" : 1444866259043,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259043> <BEA-000640> <Resource Pool \"opss-audit-viewDS\" resuming by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1041,
+                     "time" : "2015-10-14T23:44:19.043Z",
+                     "timeMS" : 1444866259043,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259043> <BEA-001124> <Created Connection Pool named opss-audit-viewDS.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1042,
+                     "time" : "2015-10-14T23:44:19.043Z",
+                     "timeMS" : 1444866259043,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259043> <BEA-000638> <Resource Pool \"opss-audit-viewDS\" is being suspended by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1043,
+                     "time" : "2015-10-14T23:44:19.043Z",
+                     "timeMS" : 1444866259043,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259043> <BEA-000640> <Resource Pool \"opss-audit-viewDS\" resuming by external command. (MultiDataSource or console etc)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1044,
+                     "time" : "2015-10-14T23:44:19.043Z",
+                     "timeMS" : 1444866259043,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259043> <BEA-001174> <Creating data source named opss-audit-viewDS, JNDI Name = jdbc/AuditViewDB.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1045,
+                     "time" : "2015-10-14T23:44:19.047Z",
+                     "timeMS" : 1444866259047,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259047> <BEA-001512> <Data source opss-audit-viewDS has been successfully created.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1046,
+                     "time" : "2015-10-14T23:44:19.083Z",
+                     "timeMS" : 1444866259083,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Diagnostics> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259083> <BEA-320114> <Initializing the Diagnostics Harvester.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1047,
+                     "time" : "2015-10-14T23:44:19.09Z",
+                     "timeMS" : 1444866259090,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Diagnostics> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259090> <BEA-320117> <The Harvester is being disabled because there are no Harvestable types configured specified.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1048,
+                     "time" : "2015-10-14T23:44:19.098Z",
+                     "timeMS" : 1444866259098,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Diagnostics> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259098> <BEA-320119> <The Harvester is now in a inactive state.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1049,
+                     "time" : "2015-10-14T23:44:19.239Z",
+                     "timeMS" : 1444866259239,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259239> <BEA-160151> <Registered library Extension-Name: UIX, Specification-Version: 11, Implementation-Version: 11.1.1.1.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1050,
+                     "time" : "2015-10-14T23:44:19.248Z",
+                     "timeMS" : 1444866259248,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259248> <BEA-160151> <Registered library Extension-Name: adf.oracle.businesseditor, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1051,
+                     "time" : "2015-10-14T23:44:19.269Z",
+                     "timeMS" : 1444866259269,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259269> <BEA-160151> <Registered library Extension-Name: adf.oracle.domain, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (EAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1052,
+                     "time" : "2015-10-14T23:44:19.319Z",
+                     "timeMS" : 1444866259319,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259319> <BEA-160151> <Registered library Extension-Name: adf.oracle.domain.webapp, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1053,
+                     "time" : "2015-10-14T23:44:19.323Z",
+                     "timeMS" : 1444866259323,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259323> <BEA-160151> <Registered library Extension-Name: bi.em (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1054,
+                     "time" : "2015-10-14T23:44:19.328Z",
+                     "timeMS" : 1444866259328,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259328> <BEA-160151> <Registered library Extension-Name: emai (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1055,
+                     "time" : "2015-10-14T23:44:19.334Z",
+                     "timeMS" : 1444866259334,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259334> <BEA-160151> <Registered library Extension-Name: emas (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1056,
+                     "time" : "2015-10-14T23:44:19.352Z",
+                     "timeMS" : 1444866259352,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259352> <BEA-160151> <Registered library Extension-Name: emcore (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1057,
+                     "time" : "2015-10-14T23:44:19.356Z",
+                     "timeMS" : 1444866259356,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259356> <BEA-160151> <Registered library Extension-Name: essbase.em (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1058,
+                     "time" : "2015-10-14T23:44:19.361Z",
+                     "timeMS" : 1444866259361,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259361> <BEA-160151> <Registered library Extension-Name: jsf, Specification-Version: 1.2, Implementation-Version: 1.2.9.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1059,
+                     "time" : "2015-10-14T23:44:19.365Z",
+                     "timeMS" : 1444866259365,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259365> <BEA-160151> <Registered library Extension-Name: jstl, Specification-Version: 1.2, Implementation-Version: 1.2.0.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1060,
+                     "time" : "2015-10-14T23:44:19.368Z",
+                     "timeMS" : 1444866259368,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259368> <BEA-160151> <Registered library Extension-Name: ohw-rcf, Specification-Version: 5, Implementation-Version: 5.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1061,
+                     "time" : "2015-10-14T23:44:19.372Z",
+                     "timeMS" : 1444866259372,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259372> <BEA-160151> <Registered library Extension-Name: ohw-uix, Specification-Version: 5, Implementation-Version: 5.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1062,
+                     "time" : "2015-10-14T23:44:19.435Z",
+                     "timeMS" : 1444866259435,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259435> <BEA-160151> <Registered library Extension-Name: oracle.adf.dconfigbeans, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (JAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1063,
+                     "time" : "2015-10-14T23:44:19.44Z",
+                     "timeMS" : 1444866259440,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259440> <BEA-160151> <Registered library Extension-Name: oracle.adf.desktopintegration, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1064,
+                     "time" : "2015-10-14T23:44:19.442Z",
+                     "timeMS" : 1444866259442,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259442> <BEA-160151> <Registered library Extension-Name: oracle.adf.desktopintegration.model, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (EAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1065,
+                     "time" : "2015-10-14T23:44:19.452Z",
+                     "timeMS" : 1444866259452,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259452> <BEA-160151> <Registered library Extension-Name: oracle.adf.management, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1066,
+                     "time" : "2015-10-14T23:44:19.457Z",
+                     "timeMS" : 1444866259457,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259457> <BEA-160151> <Registered library Extension-Name: oracle.bi.adf.model.slib, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (EAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1067,
+                     "time" : "2015-10-14T23:44:19.464Z",
+                     "timeMS" : 1444866259464,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259464> <BEA-160151> <Registered library Extension-Name: oracle.bi.adf.view.slib, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1068,
+                     "time" : "2015-10-14T23:44:19.471Z",
+                     "timeMS" : 1444866259471,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259471> <BEA-160151> <Registered library Extension-Name: oracle.bi.adf.webcenter.slib, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1069,
+                     "time" : "2015-10-14T23:44:19.475Z",
+                     "timeMS" : 1444866259475,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259475> <BEA-160151> <Registered library Extension-Name: oracle.bi.composer, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1070,
+                     "time" : "2015-10-14T23:44:19.479Z",
+                     "timeMS" : 1444866259479,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259479> <BEA-160151> <Registered library Extension-Name: oracle.bi.composer, Specification-Version: 11.1.1, Implementation-Version: 0.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1071,
+                     "time" : "2015-10-14T23:44:19.482Z",
+                     "timeMS" : 1444866259482,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259482> <BEA-160151> <Registered library Extension-Name: oracle.bi.jbips, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (EAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1072,
+                     "time" : "2015-10-14T23:44:19.483Z",
+                     "timeMS" : 1444866259483,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259483> <BEA-160151> <Registered library Extension-Name: oracle.bi.jbips, Specification-Version: 11.1.1, Implementation-Version: 0.1 (EAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1073,
+                     "time" : "2015-10-14T23:44:19.485Z",
+                     "timeMS" : 1444866259485,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259485> <BEA-160151> <Registered library Extension-Name: oracle.biopmn, Specification-Version: 11.1.1 (JAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1074,
+                     "time" : "2015-10-14T23:44:19.628Z",
+                     "timeMS" : 1444866259628,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259628> <BEA-160151> <Registered library Extension-Name: oracle.bpm.mgmt, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (EJB).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1075,
+                     "time" : "2015-10-14T23:44:19.63Z",
+                     "timeMS" : 1444866259630,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259630> <BEA-160151> <Registered library Extension-Name: oracle.dconfig-infra, Specification-Version: 11, Implementation-Version: 11.1.1.1.0 (JAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1076,
+                     "time" : "2015-10-14T23:44:19.637Z",
+                     "timeMS" : 1444866259637,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259637> <BEA-160151> <Registered library Extension-Name: oracle.jrf.system.filter (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1077,
+                     "time" : "2015-10-14T23:44:19.673Z",
+                     "timeMS" : 1444866259673,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259673> <BEA-160151> <Registered library Extension-Name: oracle.jsp.next, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (JAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1078,
+                     "time" : "2015-10-14T23:44:19.68Z",
+                     "timeMS" : 1444866259680,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259680> <BEA-160151> <Registered library Extension-Name: oracle.pwdgen, Specification-Version: 11.1.1, Implementation-Version: 11.1.1.2.0 (JAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1079,
+                     "time" : "2015-10-14T23:44:19.682Z",
+                     "timeMS" : 1444866259682,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259682> <BEA-160151> <Registered library Extension-Name: oracle.wsm.seedpolicies, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (JAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1080,
+                     "time" : "2015-10-14T23:44:19.684Z",
+                     "timeMS" : 1444866259684,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259684> <BEA-160151> <Registered library Extension-Name: orai18n-adf, Specification-Version: 11, Implementation-Version: 11.1.1.1.0 (JAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1081,
+                     "time" : "2015-10-14T23:44:19.696Z",
+                     "timeMS" : 1444866259696,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259696> <BEA-160151> <Registered library Extension-Name: oracle.portlet-producer.jpdk, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1082,
+                     "time" : "2015-10-14T23:44:19.714Z",
+                     "timeMS" : 1444866259714,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259714> <BEA-160151> <Registered library Extension-Name: oracle.portlet-producer.wsrp, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1083,
+                     "time" : "2015-10-14T23:44:19.722Z",
+                     "timeMS" : 1444866259722,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259722> <BEA-160151> <Registered library Extension-Name: oracle.webcenter.composer, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1084,
+                     "time" : "2015-10-14T23:44:19.742Z",
+                     "timeMS" : 1444866259742,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259742> <BEA-160151> <Registered library Extension-Name: oracle.webcenter.skin, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (EAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1085,
+                     "time" : "2015-10-14T23:44:19.758Z",
+                     "timeMS" : 1444866259758,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259758> <BEA-160151> <Registered library Extension-Name: wc-producer-web-lib, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1086,
+                     "time" : "2015-10-14T23:44:19.762Z",
+                     "timeMS" : 1444866259762,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259762> <BEA-160151> <Registered library Extension-Name: wlp-framework-common-web-lib, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1087,
+                     "time" : "2015-10-14T23:44:19.769Z",
+                     "timeMS" : 1444866259769,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259769> <BEA-160151> <Registered library Extension-Name: wlp-light-core-web-lib, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1088,
+                     "time" : "2015-10-14T23:44:19.775Z",
+                     "timeMS" : 1444866259775,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259775> <BEA-160151> <Registered library Extension-Name: wlp-producer-full-web-lib, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1089,
+                     "time" : "2015-10-14T23:44:19.778Z",
+                     "timeMS" : 1444866259778,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259778> <BEA-160151> <Registered library Extension-Name: wlp-wsrp-producer-core-web-lib, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1090,
+                     "time" : "2015-10-14T23:44:19.78Z",
+                     "timeMS" : 1444866259780,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259780> <BEA-160151> <Registered library Extension-Name: epm-shared-libraries, Specification-Version: 11.1.2, Implementation-Version: 11.1.2.0 (JAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1091,
+                     "time" : "2015-10-14T23:44:19.782Z",
+                     "timeMS" : 1444866259782,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259782> <BEA-160151> <Registered library Extension-Name: oracle.applcore.view, Specification-Version: 0.1, Implementation-Version: 11.1.1.0.0 (WAR).> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1092,
+                     "time" : "2015-10-14T23:44:19.797Z",
+                     "timeMS" : 1444866259797,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259797> <BEA-149059> <Module dms.war of application DMS Application [Version=11.1.1.1.0] is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1093,
+                     "time" : "2015-10-14T23:44:19.953Z",
+                     "timeMS" : 1444866259953,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Warning> <Security> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259953> <BEA-090668> <Ignored deployment of role \"Admin\" for resource \"type=<url>, application=DMS Application#11.1.1.1.0, contextPath=/dms, uri=/\"> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1094,
+                     "time" : "2015-10-14T23:44:19.956Z",
+                     "timeMS" : 1444866259956,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259956> <BEA-149060> <Module dms.war of application DMS Application [Version=11.1.1.1.0] successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1095,
+                     "time" : "2015-10-14T23:44:20.019Z",
+                     "timeMS" : 1444866260019,
+                     "data" : "####<Oct 14, 2015 11:44:20 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866260019> <BEA-149059> <Module / of application FMW Welcome Page Application [Version=11.1.0.0.0] is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1096,
+                     "time" : "2015-10-14T23:44:20.041Z",
+                     "timeMS" : 1444866260041,
+                     "data" : "####<Oct 14, 2015 11:44:20 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866260041> <BEA-149060> <Module / of application FMW Welcome Page Application [Version=11.1.0.0.0] successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1097,
+                     "time" : "2015-10-14T23:44:20.088Z",
+                     "timeMS" : 1444866260088,
+                     "data" : "####<Oct 14, 2015 11:44:20 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866260088> <BEA-149059> <Module /inspection.wsil of application wsil-wls is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1098,
+                     "time" : "2015-10-14T23:44:20.115Z",
+                     "timeMS" : 1444866260115,
+                     "data" : "####<Oct 14, 2015 11:44:20 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866260115> <BEA-149060> <Module /inspection.wsil of application wsil-wls successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1099,
+                     "time" : "2015-10-14T23:44:20.177Z",
+                     "timeMS" : 1444866260177,
+                     "data" : "####<Oct 14, 2015 11:44:20 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866260177> <BEA-160170> <Imported library Extension-Name: oracle.wsm.seedpolicies, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 for Application wsm-pm> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1100,
+                     "time" : "2015-10-14T23:44:20.736Z",
+                     "timeMS" : 1444866260736,
+                     "data" : "####<Oct 14, 2015 11:44:20 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866260736> <BEA-149059> <Module weblogic.xml.registry.XMLModule of application wsm-pm is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1101,
+                     "time" : "2015-10-14T23:44:20.743Z",
+                     "timeMS" : 1444866260743,
+                     "data" : "####<Oct 14, 2015 11:44:20 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866260743> <BEA-149060> <Module weblogic.xml.registry.XMLModule of application wsm-pm successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1102,
+                     "time" : "2015-10-14T23:44:20.743Z",
+                     "timeMS" : 1444866260743,
+                     "data" : "####<Oct 14, 2015 11:44:20 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866260743> <BEA-149059> <Module wsm-pmserver-wls.jar of application wsm-pm is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1103,
+                     "time" : "2015-10-14T23:44:21.007Z",
+                     "timeMS" : 1444866261007,
+                     "data" : "####<Oct 14, 2015 11:44:21 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866261007> <BEA-160166> <References were found in deployment plan for module 'wsm-pmserver-wls.jar' with uri, 'META-INF/weblogic-ejb-jar.xml'. The plan was merged.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1104,
+                     "time" : "2015-10-14T23:44:21.124Z",
+                     "timeMS" : 1444866261124,
+                     "data" : "####<Oct 14, 2015 11:44:21 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866261124> <BEA-010008> <EJB Deploying file: wsm-pmserver-wls.jar> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1105,
+                     "time" : "2015-10-14T23:44:21.689Z",
+                     "timeMS" : 1444866261689,
+                     "data" : "####<Oct 14, 2015 11:44:21 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866261689> <BEA-149060> <Module wsm-pmserver-wls.jar of application wsm-pm successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1106,
+                     "time" : "2015-10-14T23:44:21.689Z",
+                     "timeMS" : 1444866261689,
+                     "data" : "####<Oct 14, 2015 11:44:21 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866261689> <BEA-149059> <Module /wsm-pm of application wsm-pm is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1107,
+                     "time" : "2015-10-14T23:44:21.717Z",
+                     "timeMS" : 1444866261717,
+                     "data" : "####<Oct 14, 2015 11:44:21 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866261717> <BEA-149060> <Module /wsm-pm of application wsm-pm successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1108,
+                     "time" : "2015-10-14T23:44:21.718Z",
+                     "timeMS" : 1444866261718,
+                     "data" : "####<Oct 14, 2015 11:44:21 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866261718> <BEA-149059> <Module /wsm-pmrest of application wsm-pm is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1109,
+                     "time" : "2015-10-14T23:44:21.857Z",
+                     "timeMS" : 1444866261857,
+                     "data" : "####<Oct 14, 2015 11:44:21 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866261857> <BEA-149060> <Module /wsm-pmrest of application wsm-pm successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1110,
+                     "time" : "2015-10-14T23:44:21.857Z",
+                     "timeMS" : 1444866261857,
+                     "data" : "####<Oct 14, 2015 11:44:21 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866261857> <BEA-149059> <Module Diagnostic of application wsm-pm is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1111,
+                     "time" : "2015-10-14T23:44:22.013Z",
+                     "timeMS" : 1444866262013,
+                     "data" : "####<Oct 14, 2015 11:44:22 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866262013> <BEA-149060> <Module Diagnostic of application wsm-pm successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1112,
+                     "time" : "2015-10-14T23:44:22.013Z",
+                     "timeMS" : 1444866262013,
+                     "data" : "####<Oct 14, 2015 11:44:22 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866262013> <BEA-149059> <Module /idaas/webservice/ of application wsm-pm is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1113,
+                     "time" : "2015-10-14T23:44:22.02Z",
+                     "timeMS" : 1444866262020,
+                     "data" : "####<Oct 14, 2015 11:44:22 PM UTC> <Info> <HTTP> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866262020> <BEA-101363> <Application: wsm-pm, WebApp: /idaas/webservice/ has context-root specified in application.xml: \"/idaas/webservice/\". The context-root specified in weblogic.xml: \"/idaas/webservice\" will be ignored.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1114,
+                     "time" : "2015-10-14T23:44:22.451Z",
+                     "timeMS" : 1444866262451,
+                     "data" : "####<Oct 14, 2015 11:44:22 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866262451> <BEA-149060> <Module /idaas/webservice/ of application wsm-pm successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1115,
+                     "time" : "2015-10-14T23:44:22.619Z",
+                     "timeMS" : 1444866262619,
+                     "data" : "####<Oct 14, 2015 11:44:22 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866262619> <BEA-160170> <Imported library Extension-Name: epm-shared-libraries, Specification-Version: 11.1.2, Implementation-Version: 11.1.2.0 for Application NonJ2EEManagement> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1116,
+                     "time" : "2015-10-14T23:44:26.283Z",
+                     "timeMS" : 1444866266283,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266283> <BEA-149059> <Module NonJ2EEManagement of application NonJ2EEManagement [Version=11.1.1] is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1117,
+                     "time" : "2015-10-14T23:44:26.313Z",
+                     "timeMS" : 1444866266313,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266313> <BEA-149060> <Module NonJ2EEManagement of application NonJ2EEManagement [Version=11.1.1] successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1118,
+                     "time" : "2015-10-14T23:44:26.333Z",
+                     "timeMS" : 1444866266333,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266333> <BEA-149059> <Module biadminutils-mbeans.jar of application biadminutils [Version=11.1.1] is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1119,
+                     "time" : "2015-10-14T23:44:26.333Z",
+                     "timeMS" : 1444866266333,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266333> <BEA-149060> <Module biadminutils-mbeans.jar of application biadminutils [Version=11.1.1] successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1120,
+                     "time" : "2015-10-14T23:44:26.487Z",
+                     "timeMS" : 1444866266487,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266487> <BEA-160170> <Imported library Extension-Name: oracle.biopmn, Specification-Version: 11.1.1 for Application bisecurityadmin> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1121,
+                     "time" : "2015-10-14T23:44:26.492Z",
+                     "timeMS" : 1444866266492,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266492> <BEA-149059> <Module bisecurityadmin of application bisecurityadmin [Version=11.1.1] is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1122,
+                     "time" : "2015-10-14T23:44:26.514Z",
+                     "timeMS" : 1444866266514,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266514> <BEA-149060> <Module bisecurityadmin of application bisecurityadmin [Version=11.1.1] successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1123,
+                     "time" : "2015-10-14T23:44:26.621Z",
+                     "timeMS" : 1444866266621,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266621> <BEA-160170> <Imported library Extension-Name: oracle.biopmn, Specification-Version: 11.1.1 for Application biadminservices> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1124,
+                     "time" : "2015-10-14T23:44:26.629Z",
+                     "timeMS" : 1444866266629,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266629> <BEA-149059> <Module adminservicesmbeans of application biadminservices [Version=11.1.1] is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1125,
+                     "time" : "2015-10-14T23:44:26.634Z",
+                     "timeMS" : 1444866266634,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Warning> <Munger> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266634> <BEA-2156203> <A version attribute was not found in element web-app in the deployment descriptor in /scratch/aime/work/APPTOP/instance/domains/slc08bft.us.oracle.com/BIDomain/servers/AdminServer/tmp/_WL_user/biadminservices_11.1.1/stq6lw/biadminservices.war/WEB-INF/web.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1126,
+                     "time" : "2015-10-14T23:44:26.671Z",
+                     "timeMS" : 1444866266671,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266671> <BEA-149060> <Module adminservicesmbeans of application biadminservices [Version=11.1.1] successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1127,
+                     "time" : "2015-10-14T23:44:26.698Z",
+                     "timeMS" : 1444866266698,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266698> <BEA-160170> <Imported library Extension-Name: oracle.webcenter.skin, Specification-Version: 11.1.1, Implementation-Version: 11.1.1 for Application em> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1128,
+                     "time" : "2015-10-14T23:44:26.711Z",
+                     "timeMS" : 1444866266711,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Info> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266711> <BEA-160170> <Imported library Extension-Name: adf.oracle.domain, Specification-Version: 1, Implementation-Version: 11.1.1.2.0 for Application em> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1129,
+                     "time" : "2015-10-14T23:44:26.728Z",
+                     "timeMS" : 1444866266728,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Warning> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266728> <BEA-160195> <The application version lifecycle event listener oracle.security.jps.wls.listeners.JpsAppVersionLifecycleListener is ignored because the application em is not versioned.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1130,
+                     "time" : "2015-10-14T23:44:30.206Z",
+                     "timeMS" : 1444866270206,
+                     "data" : "####<Oct 14, 2015 11:44:30 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866270206> <BEA-149059> <Module empty.jar of application em is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1131,
+                     "time" : "2015-10-14T23:44:30.206Z",
+                     "timeMS" : 1444866270206,
+                     "data" : "####<Oct 14, 2015 11:44:30 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866270206> <BEA-149060> <Module empty.jar of application em successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1132,
+                     "time" : "2015-10-14T23:44:30.206Z",
+                     "timeMS" : 1444866270206,
+                     "data" : "####<Oct 14, 2015 11:44:30 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866270206> <BEA-149059> <Module /em of application em is transitioning from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1133,
+                     "time" : "2015-10-14T23:44:31.982Z",
+                     "timeMS" : 1444866271982,
+                     "data" : "####<Oct 14, 2015 11:44:31 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866271982> <BEA-149060> <Module /em of application em successfully transitioned from STATE_NEW to STATE_PREPARED on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1134,
+                     "time" : "2015-10-14T23:44:31.985Z",
+                     "timeMS" : 1444866271985,
+                     "data" : "####<Oct 14, 2015 11:44:31 PM UTC> <Warning> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866271985> <BEA-160140> <Unresolved optional package references (in META-INF/MANIFEST.MF): [Extension-Name: oracle.rules, referenced from: /scratch/aime/work/APPTOP/instance/domains/slc08bft.us.oracle.com/BIDomain/servers/AdminServer/tmp/_WL_user/emai/xalnv4]. Make sure the referenced optional package has been deployed as a library.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1135,
+                     "time" : "2015-10-14T23:44:32.644Z",
+                     "timeMS" : 1444866272644,
+                     "data" : "####<Oct 14, 2015 11:44:32 PM UTC> <Info> <WebService> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866272644> <BEA-220103> <Async web service support is not fully configured. The async response web service /AsyncResponseServiceHttps for this server was not fully deployed because the JMS reliability queue was not defined/deployed: weblogic.wsee.DefaultQueue. The server will periodically retry completing the deploy for the service. This message can usually be ignored unless there are async web service applications. To completely disable async web service support, thus avoiding this message, set -Dweblogic.wsee.skip.async.response=true.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1136,
+                     "time" : "2015-10-14T23:44:32.823Z",
+                     "timeMS" : 1444866272823,
+                     "data" : "####<Oct 14, 2015 11:44:32 PM UTC> <Info> <WebService> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866272823> <BEA-220103> <Async web service support is not fully configured. The async response web service /AsyncResponseServiceJms for this server was not fully deployed because the JMS reliability queue was not defined/deployed: weblogic.wsee.DefaultQueue. The server will periodically retry completing the deploy for the service. This message can usually be ignored unless there are async web service applications. To completely disable async web service support, thus avoiding this message, set -Dweblogic.wsee.skip.async.response=true.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1137,
+                     "time" : "2015-10-14T23:44:32.828Z",
+                     "timeMS" : 1444866272828,
+                     "data" : "####<Oct 14, 2015 11:44:32 PM UTC> <Info> <WebService> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866272828> <BEA-220103> <Async web service support is not fully configured. The async response web service /AsyncResponseService for this server was not fully deployed because the JMS reliability queue was not defined/deployed: weblogic.wsee.DefaultQueue. The server will periodically retry completing the deploy for the service. This message can usually be ignored unless there are async web service applications. To completely disable async web service support, thus avoiding this message, set -Dweblogic.wsee.skip.async.response=true.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1138,
+                     "time" : "2015-10-14T23:44:32.836Z",
+                     "timeMS" : 1444866272836,
+                     "data" : "####<Oct 14, 2015 11:44:32 PM UTC> <Info> <WebService> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866272836> <BEA-220103> <Async web service support is not fully configured. The async response web service /AsyncResponseServiceSoap12Jms for this server was not fully deployed because the JMS reliability queue was not defined/deployed: weblogic.wsee.DefaultQueue. The server will periodically retry completing the deploy for the service. This message can usually be ignored unless there are async web service applications. To completely disable async web service support, thus avoiding this message, set -Dweblogic.wsee.skip.async.response=true.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1139,
+                     "time" : "2015-10-14T23:44:32.844Z",
+                     "timeMS" : 1444866272844,
+                     "data" : "####<Oct 14, 2015 11:44:32 PM UTC> <Info> <WebService> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866272844> <BEA-220103> <Async web service support is not fully configured. The async response web service /AsyncResponseServiceSoap12 for this server was not fully deployed because the JMS reliability queue was not defined/deployed: weblogic.wsee.DefaultQueue. The server will periodically retry completing the deploy for the service. This message can usually be ignored unless there are async web service applications. To completely disable async web service support, thus avoiding this message, set -Dweblogic.wsee.skip.async.response=true.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1140,
+                     "time" : "2015-10-14T23:44:32.848Z",
+                     "timeMS" : 1444866272848,
+                     "data" : "####<Oct 14, 2015 11:44:32 PM UTC> <Info> <WebService> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866272848> <BEA-220103> <Async web service support is not fully configured. The async response web service /AsyncResponseServiceSoap12Https for this server was not fully deployed because the JMS reliability queue was not defined/deployed: weblogic.wsee.DefaultQueue. The server will periodically retry completing the deploy for the service. This message can usually be ignored unless there are async web service applications. To completely disable async web service support, thus avoiding this message, set -Dweblogic.wsee.skip.async.response=true.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1141,
+                     "time" : "2015-10-14T23:44:33.077Z",
+                     "timeMS" : 1444866273077,
+                     "data" : "####<Oct 14, 2015 11:44:33 PM UTC> <Info> <netuix> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866273077> <BEA-423101> <[console] Initializing the NetUIx container> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1142,
+                     "time" : "2015-10-14T23:44:33.234Z",
+                     "timeMS" : 1444866273234,
+                     "data" : "####<Oct 14, 2015 11:44:33 PM UTC> <Info> <netuix> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866273234> <BEA-423120> <WEB-INF/client-classifications.xml file not found at uri [console//WEB-INF/client-classifications.xml]. Classifications functionality not enabled.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1143,
+                     "time" : "2015-10-14T23:44:33.629Z",
+                     "timeMS" : 1444866273629,
+                     "data" : "####<Oct 14, 2015 11:44:33 PM UTC> <Info> <netuix> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866273629> <BEA-423101> <[consolehelp] Initializing the NetUIx container> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1144,
+                     "time" : "2015-10-14T23:44:33.739Z",
+                     "timeMS" : 1444866273739,
+                     "data" : "####<Oct 14, 2015 11:44:33 PM UTC> <Info> <netuix> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866273739> <BEA-423120> <WEB-INF/client-classifications.xml file not found at uri [consolehelp//WEB-INF/client-classifications.xml]. Classifications functionality not enabled.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1145,
+                     "time" : "2015-10-14T23:44:33.856Z",
+                     "timeMS" : 1444866273856,
+                     "data" : "####<Oct 14, 2015 11:44:33 PM UTC> <Info> <WebLogicServer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866273856> <BEA-000256> <Invoking weblogic.transaction.internal.StartupClass.main(null)> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1146,
+                     "time" : "2015-10-14T23:44:33.88Z",
+                     "timeMS" : 1444866273880,
+                     "data" : "####<Oct 14, 2015 11:44:33 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866273880> <BEA-149059> <Module dms.war of application DMS Application [Version=11.1.1.1.0] is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1147,
+                     "time" : "2015-10-14T23:44:33.88Z",
+                     "timeMS" : 1444866273880,
+                     "data" : "####<Oct 14, 2015 11:44:33 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866273880> <BEA-149060> <Module dms.war of application DMS Application [Version=11.1.1.1.0] successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1148,
+                     "time" : "2015-10-14T23:44:35.519Z",
+                     "timeMS" : 1444866275519,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275519> <BEA-149059> <Module / of application FMW Welcome Page Application [Version=11.1.0.0.0] is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1149,
+                     "time" : "2015-10-14T23:44:35.519Z",
+                     "timeMS" : 1444866275519,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275519> <BEA-149060> <Module / of application FMW Welcome Page Application [Version=11.1.0.0.0] successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1150,
+                     "time" : "2015-10-14T23:44:35.538Z",
+                     "timeMS" : 1444866275538,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275538> <BEA-149059> <Module /inspection.wsil of application wsil-wls is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1151,
+                     "time" : "2015-10-14T23:44:35.538Z",
+                     "timeMS" : 1444866275538,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275538> <BEA-149060> <Module /inspection.wsil of application wsil-wls successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1152,
+                     "time" : "2015-10-14T23:44:35.581Z",
+                     "timeMS" : 1444866275581,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275581> <BEA-149059> <Module weblogic.xml.registry.XMLModule of application wsm-pm is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1153,
+                     "time" : "2015-10-14T23:44:35.582Z",
+                     "timeMS" : 1444866275582,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275582> <BEA-149060> <Module weblogic.xml.registry.XMLModule of application wsm-pm successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1154,
+                     "time" : "2015-10-14T23:44:35.582Z",
+                     "timeMS" : 1444866275582,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275582> <BEA-149059> <Module wsm-pmserver-wls.jar of application wsm-pm is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1155,
+                     "time" : "2015-10-14T23:44:35.641Z",
+                     "timeMS" : 1444866275641,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275641> <BEA-010009> <EJB Deployed EJB with JNDI name ejb/policymanager/IBuildInfoService.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1156,
+                     "time" : "2015-10-14T23:44:35.675Z",
+                     "timeMS" : 1444866275675,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275675> <BEA-014021> <The EJB 'PolicyService(Application: wsm-pm, EJBComponent: wsm-pmserver-wls.jar)' has been successfully deployed. The following remote interfaces have been bound into JNDI with the specified JNDI names:> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1157,
+                     "time" : "2015-10-14T23:44:35.676Z",
+                     "timeMS" : 1444866275676,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275676> <BEA-014022> <******** oracle.wsm.policymanager.ejb.IPolicyServiceRemote is bound with JNDI name:PolicyService#oracle.wsm.policymanager.ejb.IPolicyServiceRemote ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1158,
+                     "time" : "2015-10-14T23:44:35.676Z",
+                     "timeMS" : 1444866275676,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275676> <BEA-014022> <******** oracle.wsm.policymanager.ejb.IStringPolicyServiceRemote is bound with JNDI name:PolicyService#oracle.wsm.policymanager.ejb.IStringPolicyServiceRemote ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1159,
+                     "time" : "2015-10-14T23:44:35.676Z",
+                     "timeMS" : 1444866275676,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275676> <BEA-010009> <EJB Deployed EJB with JNDI name ejb/policymanager/IPolicyService.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1160,
+                     "time" : "2015-10-14T23:44:35.687Z",
+                     "timeMS" : 1444866275687,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275687> <BEA-014021> <The EJB 'UsageTracker(Application: wsm-pm, EJBComponent: wsm-pmserver-wls.jar)' has been successfully deployed. The following remote interfaces have been bound into JNDI with the specified JNDI names:> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1161,
+                     "time" : "2015-10-14T23:44:35.687Z",
+                     "timeMS" : 1444866275687,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275687> <BEA-014022> <******** oracle.wsm.policymanager.bean.ejb.IRemoteUsageTracker is bound with JNDI name:UsageTracker#oracle.wsm.policymanager.bean.ejb.IRemoteUsageTracker ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1162,
+                     "time" : "2015-10-14T23:44:35.687Z",
+                     "timeMS" : 1444866275687,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275687> <BEA-010009> <EJB Deployed EJB with JNDI name /policymanager/IUsageTracker.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1163,
+                     "time" : "2015-10-14T23:44:35.699Z",
+                     "timeMS" : 1444866275699,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275699> <BEA-014021> <The EJB 'DocumentManager(Application: wsm-pm, EJBComponent: wsm-pmserver-wls.jar)' has been successfully deployed. The following remote interfaces have been bound into JNDI with the specified JNDI names:> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1164,
+                     "time" : "2015-10-14T23:44:35.699Z",
+                     "timeMS" : 1444866275699,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275699> <BEA-014022> <******** oracle.wsm.policymanager.bean.ejb.IRemoteDocumentManager is bound with JNDI name:DocumentManager#oracle.wsm.policymanager.bean.ejb.IRemoteDocumentManager ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1165,
+                     "time" : "2015-10-14T23:44:35.699Z",
+                     "timeMS" : 1444866275699,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275699> <BEA-010009> <EJB Deployed EJB with JNDI name /policymanager/IDocumentManager.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1166,
+                     "time" : "2015-10-14T23:44:35.727Z",
+                     "timeMS" : 1444866275727,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275727> <BEA-014021> <The EJB 'PolicyAccessService(Application: wsm-pm, EJBComponent: wsm-pmserver-wls.jar)' has been successfully deployed. The following remote interfaces have been bound into JNDI with the specified JNDI names:> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1167,
+                     "time" : "2015-10-14T23:44:35.727Z",
+                     "timeMS" : 1444866275727,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275727> <BEA-014022> <******** oracle.wsm.policymanager.ejb.IPolicyAccessServiceRemote is bound with JNDI name:PolicyAccessService#oracle.wsm.policymanager.ejb.IPolicyAccessServiceRemote ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1168,
+                     "time" : "2015-10-14T23:44:35.727Z",
+                     "timeMS" : 1444866275727,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275727> <BEA-014022> <******** oracle.wsm.policymanager.ejb.IStringPolicyAccessServiceRemote is bound with JNDI name:PolicyAccessService#oracle.wsm.policymanager.ejb.IStringPolicyAccessServiceRemote ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1169,
+                     "time" : "2015-10-14T23:44:35.727Z",
+                     "timeMS" : 1444866275727,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275727> <BEA-010009> <EJB Deployed EJB with JNDI name ejb/policymanager/IPolicyAccessService.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1170,
+                     "time" : "2015-10-14T23:44:35.737Z",
+                     "timeMS" : 1444866275737,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275737> <BEA-014021> <The EJB 'UpgradeManager(Application: wsm-pm, EJBComponent: wsm-pmserver-wls.jar)' has been successfully deployed. The following remote interfaces have been bound into JNDI with the specified JNDI names:> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1171,
+                     "time" : "2015-10-14T23:44:35.737Z",
+                     "timeMS" : 1444866275737,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275737> <BEA-014022> <******** oracle.wsm.policymanager.bean.ejb.IRemoteUpgradeManager is bound with JNDI name:UpgradeManager#oracle.wsm.policymanager.bean.ejb.IRemoteUpgradeManager ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1172,
+                     "time" : "2015-10-14T23:44:35.737Z",
+                     "timeMS" : 1444866275737,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275737> <BEA-010009> <EJB Deployed EJB with JNDI name /policymanager/IUpgradeManager.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1173,
+                     "time" : "2015-10-14T23:44:35.783Z",
+                     "timeMS" : 1444866275783,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275783> <BEA-014021> <The EJB 'QueryService(Application: wsm-pm, EJBComponent: wsm-pmserver-wls.jar)' has been successfully deployed. The following remote interfaces have been bound into JNDI with the specified JNDI names:> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1174,
+                     "time" : "2015-10-14T23:44:35.783Z",
+                     "timeMS" : 1444866275783,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275783> <BEA-014022> <******** oracle.wsm.policymanager.ejb.IStringQueryServiceRemote is bound with JNDI name:QueryService#oracle.wsm.policymanager.ejb.IStringQueryServiceRemote ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1175,
+                     "time" : "2015-10-14T23:44:35.783Z",
+                     "timeMS" : 1444866275783,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275783> <BEA-014022> <******** oracle.wsm.policymanager.ejb.IQueryServiceRemote is bound with JNDI name:QueryService#oracle.wsm.policymanager.ejb.IQueryServiceRemote ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1176,
+                     "time" : "2015-10-14T23:44:35.783Z",
+                     "timeMS" : 1444866275783,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275783> <BEA-010009> <EJB Deployed EJB with JNDI name ejb/policymanager/IQueryService.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1177,
+                     "time" : "2015-10-14T23:44:35.823Z",
+                     "timeMS" : 1444866275823,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275823> <BEA-014021> <The EJB 'UpdateService(Application: wsm-pm, EJBComponent: wsm-pmserver-wls.jar)' has been successfully deployed. The following remote interfaces have been bound into JNDI with the specified JNDI names:> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1178,
+                     "time" : "2015-10-14T23:44:35.823Z",
+                     "timeMS" : 1444866275823,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275823> <BEA-014022> <******** oracle.wsm.policymanager.ejb.IUpdateServiceRemote is bound with JNDI name:UpdateService#oracle.wsm.policymanager.ejb.IUpdateServiceRemote ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1179,
+                     "time" : "2015-10-14T23:44:35.823Z",
+                     "timeMS" : 1444866275823,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275823> <BEA-014022> <******** oracle.wsm.policymanager.ejb.IStringUpdateServiceRemote is bound with JNDI name:UpdateService#oracle.wsm.policymanager.ejb.IStringUpdateServiceRemote ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1180,
+                     "time" : "2015-10-14T23:44:35.823Z",
+                     "timeMS" : 1444866275823,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275823> <BEA-010009> <EJB Deployed EJB with JNDI name ejb/policymanager/IUpdateService.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1181,
+                     "time" : "2015-10-14T23:44:35.838Z",
+                     "timeMS" : 1444866275838,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275838> <BEA-014021> <The EJB 'AlgorithmProcessor(Application: wsm-pm, EJBComponent: wsm-pmserver-wls.jar)' has been successfully deployed. The following remote interfaces have been bound into JNDI with the specified JNDI names:> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1182,
+                     "time" : "2015-10-14T23:44:35.838Z",
+                     "timeMS" : 1444866275838,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275838> <BEA-014022> <******** oracle.wsm.policymanager.bean.ejb.IRemoteAlgorithmProcessor is bound with JNDI name:AlgorithmProcessor#oracle.wsm.policymanager.bean.ejb.IRemoteAlgorithmProcessor ********> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1183,
+                     "time" : "2015-10-14T23:44:35.838Z",
+                     "timeMS" : 1444866275838,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <EJB> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275838> <BEA-010009> <EJB Deployed EJB with JNDI name /policymanager/IAlgorithmProcessor.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1184,
+                     "time" : "2015-10-14T23:44:35.849Z",
+                     "timeMS" : 1444866275849,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275849> <BEA-149060> <Module wsm-pmserver-wls.jar of application wsm-pm successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1185,
+                     "time" : "2015-10-14T23:44:35.849Z",
+                     "timeMS" : 1444866275849,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275849> <BEA-149059> <Module /wsm-pm of application wsm-pm is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1186,
+                     "time" : "2015-10-14T23:44:35.849Z",
+                     "timeMS" : 1444866275849,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275849> <BEA-149060> <Module /wsm-pm of application wsm-pm successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1187,
+                     "time" : "2015-10-14T23:44:35.849Z",
+                     "timeMS" : 1444866275849,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275849> <BEA-149059> <Module /wsm-pmrest of application wsm-pm is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1188,
+                     "time" : "2015-10-14T23:44:35.849Z",
+                     "timeMS" : 1444866275849,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275849> <BEA-149060> <Module /wsm-pmrest of application wsm-pm successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1189,
+                     "time" : "2015-10-14T23:44:35.849Z",
+                     "timeMS" : 1444866275849,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275849> <BEA-149059> <Module Diagnostic of application wsm-pm is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1190,
+                     "time" : "2015-10-14T23:44:35.849Z",
+                     "timeMS" : 1444866275849,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275849> <BEA-149060> <Module Diagnostic of application wsm-pm successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1191,
+                     "time" : "2015-10-14T23:44:35.85Z",
+                     "timeMS" : 1444866275850,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275850> <BEA-149059> <Module /idaas/webservice/ of application wsm-pm is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1192,
+                     "time" : "2015-10-14T23:44:35.851Z",
+                     "timeMS" : 1444866275851,
+                     "data" : "####<Oct 14, 2015 11:44:35 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866275851> <BEA-149060> <Module /idaas/webservice/ of application wsm-pm successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1193,
+                     "time" : "2015-10-14T23:44:37.731Z",
+                     "timeMS" : 1444866277731,
+                     "data" : "####<Oct 14, 2015 11:44:37 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <OracleSystemUser> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866277731> <BEA-001516> <Data source connection pool \"mds-owsm\" connected to Database: \"Oracle\", Version: \"Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production"
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1195,
+                     "time" : "2015-10-14T23:44:37.732Z",
+                     "timeMS" : 1444866277732,
+                     "data" : "####<Oct 14, 2015 11:44:37 PM UTC> <Info> <JDBC> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <OracleSystemUser> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866277732> <BEA-001517> <Data source connection pool \"mds-owsm\" using Driver: \"Oracle JDBC driver\", Version: \"11.2.0.3.0\".> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1196,
+                     "time" : "2015-10-14T23:44:38.056Z",
+                     "timeMS" : 1444866278056,
+                     "data" : "####<Oct 14, 2015 11:44:38 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <OracleSystemUser> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866278056> <BEA-000628> <Created \"1\" resources for pool \"mds-owsm\", out of which \"1\" are available and \"0\" are unavailable.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1197,
+                     "time" : "2015-10-14T23:44:38.183Z",
+                     "timeMS" : 1444866278183,
+                     "data" : "####<Oct 14, 2015 11:44:38 PM UTC> <Info> <Common> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <OracleSystemUser> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866278183> <BEA-000628> <Created \"1\" resources for pool \"mds-owsm\", out of which \"1\" are available and \"0\" are unavailable.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1198,
+                     "time" : "2015-10-14T23:44:46.177Z",
+                     "timeMS" : 1444866286177,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286177> <BEA-149059> <Module NonJ2EEManagement of application NonJ2EEManagement [Version=11.1.1] is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1199,
+                     "time" : "2015-10-14T23:44:46.178Z",
+                     "timeMS" : 1444866286178,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286178> <BEA-149060> <Module NonJ2EEManagement of application NonJ2EEManagement [Version=11.1.1] successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1200,
+                     "time" : "2015-10-14T23:44:46.34Z",
+                     "timeMS" : 1444866286340,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <ServletContext-/NonJ2EEManagement> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286340> <BEA-000000> <Can not locate oracleDmsNotifier for now. DMS will discover opmnInfoCenter instead.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1201,
+                     "time" : "2015-10-14T23:44:46.349Z",
+                     "timeMS" : 1444866286349,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286349> <BEA-149059> <Module biadminutils-mbeans.jar of application biadminutils [Version=11.1.1] is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1202,
+                     "time" : "2015-10-14T23:44:46.35Z",
+                     "timeMS" : 1444866286350,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286350> <BEA-149060> <Module biadminutils-mbeans.jar of application biadminutils [Version=11.1.1] successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1203,
+                     "time" : "2015-10-14T23:44:46.361Z",
+                     "timeMS" : 1444866286361,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286361> <BEA-149059> <Module bisecurityadmin of application bisecurityadmin [Version=11.1.1] is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1204,
+                     "time" : "2015-10-14T23:44:46.361Z",
+                     "timeMS" : 1444866286361,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286361> <BEA-149060> <Module bisecurityadmin of application bisecurityadmin [Version=11.1.1] successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1205,
+                     "time" : "2015-10-14T23:44:46.409Z",
+                     "timeMS" : 1444866286409,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286409> <BEA-149059> <Module adminservicesmbeans of application biadminservices [Version=11.1.1] is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1206,
+                     "time" : "2015-10-14T23:44:46.409Z",
+                     "timeMS" : 1444866286409,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286409> <BEA-149060> <Module adminservicesmbeans of application biadminservices [Version=11.1.1] successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1207,
+                     "time" : "2015-10-14T23:44:46.995Z",
+                     "timeMS" : 1444866286995,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286995> <BEA-149059> <Module empty.jar of application em is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1208,
+                     "time" : "2015-10-14T23:44:46.995Z",
+                     "timeMS" : 1444866286995,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286995> <BEA-149060> <Module empty.jar of application em successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1209,
+                     "time" : "2015-10-14T23:44:46.995Z",
+                     "timeMS" : 1444866286995,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286995> <BEA-149059> <Module /em of application em is transitioning from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  }, {
+                     "id" : 33196847600,
+                     "lineNumber" : 1210,
+                     "time" : "2015-10-14T23:44:46.999Z",
+                     "timeMS" : 1444866286999,
+                     "data" : "####<Oct 14, 2015 11:44:46 PM UTC> <Info> <Deployer> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866286999> <BEA-149060> <Module /em of application em successfully transitioned from STATE_PREPARED to STATE_ADMIN on server AdminServer.> "
+                  } ]
+               }
+            }, {
+               "id" : 33196847875,
+               "name" : "BIDomain.log",
+               "type" : "document",
+               "suites" : [ "jee.domain.bidomain", "jee.server.adminserver" ],
+               "startTime" : "2015-10-14T23:38:08.811+0000",
+               "endTime" : "2015-10-14T23:45:04.000+0000",
+               "startTimeMS" : 1444865888811,
+               "endTimeMS" : 1444866304000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 7,
+                  "linesDetail" : [ {
+                     "id" : 33196847875,
+                     "lineNumber" : 90,
+                     "time" : "2015-10-14T23:44:19.953Z",
+                     "timeMS" : 1444866259953,
+                     "data" : "####<Oct 14, 2015 11:44:19 PM UTC> <Warning> <Security> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866259953> <BEA-090668> <Ignored deployment of role \"Admin\" for resource \"type=<url>, application=DMS Application#11.1.1.1.0, contextPath=/dms, uri=/\"> "
+                  }, {
+                     "id" : 33196847875,
+                     "lineNumber" : 91,
+                     "time" : "2015-10-14T23:44:26.634Z",
+                     "timeMS" : 1444866266634,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Warning> <Munger> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266634> <BEA-2156203> <A version attribute was not found in element web-app in the deployment descriptor in /scratch/aime/work/APPTOP/instance/domains/slc08bft.us.oracle.com/BIDomain/servers/AdminServer/tmp/_WL_user/biadminservices_11.1.1/stq6lw/biadminservices.war/WEB-INF/web.xml. A version attribute is required, but this version of the Weblogic Server will assume that the JEE5 is used. Future versions of the Weblogic Server will reject descriptors that do not specify the JEE version.> "
+                  }, {
+                     "id" : 33196847875,
+                     "lineNumber" : 92,
+                     "time" : "2015-10-14T23:44:26.728Z",
+                     "timeMS" : 1444866266728,
+                     "data" : "####<Oct 14, 2015 11:44:26 PM UTC> <Warning> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866266728> <BEA-160195> <The application version lifecycle event listener oracle.security.jps.wls.listeners.JpsAppVersionLifecycleListener is ignored because the application em is not versioned.> "
+                  }, {
+                     "id" : 33196847875,
+                     "lineNumber" : 93,
+                     "time" : "2015-10-14T23:44:31.985Z",
+                     "timeMS" : 1444866271985,
+                     "data" : "####<Oct 14, 2015 11:44:31 PM UTC> <Warning> <J2EE> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866271985> <BEA-160140> <Unresolved optional package references (in META-INF/MANIFEST.MF): [Extension-Name: oracle.rules, referenced from: /scratch/aime/work/APPTOP/instance/domains/slc08bft.us.oracle.com/BIDomain/servers/AdminServer/tmp/_WL_user/emai/xalnv4]. Make sure the referenced optional package has been deployed as a library.> "
+                  }, {
+                     "id" : 33196847875,
+                     "lineNumber" : 94,
+                     "time" : "2015-10-14T23:44:33.659Z",
+                     "timeMS" : 1444866273659,
+                     "data" : "####<Oct 14, 2015 11:44:33 PM UTC> <Error> <org.apache.beehive.netui.pageflow.internal.AdapterManager> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866273659> <BEA-000000> <ServletContainerAdapter manager not initialized correctly.> "
+                  }, {
+                     "id" : 33196847875,
+                     "lineNumber" : 95,
+                     "time" : "2015-10-14T23:44:36.107Z",
+                     "timeMS" : 1444866276107,
+                     "data" : "####<Oct 14, 2015 11:44:36 PM UTC> <Error> <oracle.wsm.resources.policymanager> <slc08bft> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002> <1444866276107> <WSM-02062> <Unable to retrieve credentials for the specified csf-key FUSION_APPS_WSM_APPID-KEY"
+                  }, {
+                     "id" : 33196847875,
+                     "lineNumber" : 97,
+                     "time" : "2015-10-14T23:44:36.107Z",
+                     "timeMS" : 1444866276107,
+                     "data" : "[[TieSig]] ft=\"2015-10-14T23:44:36.107+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.policymanager.PolicyManagerException\" ti=\"BeanFactory.getConfigFromCSF .. ExecuteThread.run\" tg=\"TieTagError\" h=\"TieSigHashProblemStacktracef55a90aa91ee422435ecd7920d56d985\" bh=\"TieSigBlockHashProblemStacktrace9b36745811d1989ed7ecacd8e26ac106\" ph=\"TieSigPrefixHashProblemStacktrace9e278ee0d844de98d4d607b5bec149bf\" bo=\"1\" ln=\"97\" nl=\"58\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>aa04b5d0db9e65dc:3e7b6e52:15068bd6990:-8000-0000000000000002</v></fld>[[/Flds]] [[/TieSig]]"
+                  } ]
+               }
+            } ]
+         }
+      } ]
+   }
+}

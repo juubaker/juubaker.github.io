@@ -1,0 +1,617 @@
+{
+   "pagedResult" : {
+      "count" : 1,
+      "tql" : "[[{{0058XfwMFzUFCCPLIek3yf0006ZW0001ze}}]] FILTER {path:servers name!:metricdump} s.s.f=time s.s.o=asc s.q.d.l=3000",
+      "search" : [ {
+         "totalMatches" : 8,
+         "entities" : {
+            "count" : 8,
+            "entitiesDetail" : [ {
+               "id" : 33206465480,
+               "name" : "CoreSetupServer_1-clickhistory.log",
+               "type" : "document",
+               "suites" : [ "jee.domain.hcmdomain", "jee.server.coresetupserver_1" ],
+               "startTime" : "2015-10-15T01:55:54.171+0000",
+               "endTime" : "2015-10-15T01:56:22.000+0000",
+               "startTimeMS" : 1444874154171,
+               "endTimeMS" : 1444874182000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 2,
+                  "linesDetail" : [ {
+                     "id" : 33206465480,
+                     "lineNumber" : 7,
+                     "time" : "2015-10-15T01:56:26.113Z",
+                     "timeMS" : 1444874186113,
+                     "data" : "[2015-10-15T01:56:21.811+00:00] [CoreSetupServer_1] [NOTIFICATION] [SOC] [oracle.clickhistory.EUM] [tid: 17] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:13:2] [CH_RTY: oracle.adf.rich.Button] [CH_CST: 1444874198901] [DSID: 0000L1dDUQeFCCPLIek3yf1M7fZ00003Ke] [CH_CID: pt1:r1:0:r0:2:topAppPanel:applicationsTable1:r1:0:r1:0:r2:0:cb1] [CH_VID: /oracle/adfinternal/view/rich/bootstrap/RemoteRegionBootstrap.jspx] [APP: HcmCoreSetupApp#V2.0] [CH_CMP: oracle.adf.RichCommandButton] [CH_CNM: Save and Close] [CH_TYP: action] [CH_WID: 7t7eua0ap] [CH_RVD: /FSGenericTaskFlow/DynamicRegionContainer] [CH_EID: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze] [CH_FAM: org.apache.myfaces.trinidad.Command] "
+                  }, {
+                     "id" : 33206465480,
+                     "lineNumber" : 9,
+                     "time" : "2015-10-15T01:56:36.802Z",
+                     "timeMS" : 1444874196802,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:22.275+0000\" k=\"TieSigKeyInfoClickhistory\" t=\"Info\" st=\"ClickHistory\" ti=\"[CH_VID: /oracle/adfinternal/view/rich/bootstrap/RemoteRegionBootstrap.jspx] [APP: HcmCoreSetupApp#V2.0] [CH_CNM: Save and Close] [CH_RVD: /FSGenericTaskFlow/DynamicRegionContainer]\" h=\"TieSigHashInfoClickhistory6f79bb8db5292fe36789833a7e452b49\" ph=\"TieSigPrefixHashInfoClickhistory6f79bb8db5292fe36789833a7e452b49\" ln=\"9\" tr=\"true\"[[Flds]]<fld><n>user.click.history.application</n><v>HcmCoreSetupApp#V2.0</v></fld><fld><n>user.event.oracle.dsids</n><v>0000L1dDUQeFCCPLIek3yf1M7fZ00003Ke</v></fld><fld><n>user.tie.core.user.id</n><v>APPLICATION_IMPLEMENTATION_CONSULTANT</v></fld><fld><n>user.click.history.view.id</n><v>/oracle/adfinternal/view/rich/bootstrap/RemoteRegionBootstrap.jspx</v></fld><fld><n>user.click.history.component</n><v>oracle.adf.RichCommandButton</v></fld><fld><n>user.click.history.region.view.id</n><v>/FSGenericTaskFlow/DynamicRegionContainer</v></fld><fld><n>user.tie.core.start.time</n><v>1444874198901</v></fld><fld><n>title</n><v>[CH_VID: /oracle/adfinternal/view/rich/bootstrap/RemoteRegionBootstrap.jspx] [APP: HcmCoreSetupApp#V2.0] [CH_CNM: Save and Close] [CH_RVD: /FSGenericTaskFlow/DynamicRegionContainer]</v></fld><fld><n>user.click.history.lifecycle</n><v>SOC</v></fld><fld><n>user.click.history.name</n><v>Save and Close</v></fld><fld><n>user.click.history.fam</n><v>org.apache.myfaces.trinidad.Command</v></fld><fld><n>user.click.history.window.id</n><v>7t7eua0ap</v></fld><fld><n>user.click.history.region.type</n><v>oracle.adf.rich.Button</v></fld><fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld><fld><n>user.click.history.component.id</n><v>pt1:r1:0:r0:2:topAppPanel:applicationsTable1:r1:0:r1:0:r2:0:cb1</v></fld><fld><n>user.click.history.type</n><v>action</v></fld>[[/Flds]] [[/TieSig]]"
+                  } ]
+               }
+            }, {
+               "id" : 33206458251,
+               "name" : "log.xml",
+               "type" : "document",
+               "suites" : [ "jee.domain.crmdomain", "jee.server.contractmanagementserver_1" ],
+               "startTime" : "2015-10-15T01:56:37.677+0000",
+               "endTime" : "2015-10-15T01:56:36.000+0000",
+               "startTimeMS" : 1444874197677,
+               "endTimeMS" : 1444874196000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 1,
+                  "linesDetail" : [ {
+                     "id" : 33206458251,
+                     "lineNumber" : 4,
+                     "time" : "2015-10-15T01:56:37.677Z",
+                     "timeMS" : 1444874197677,
+                     "data" : " upstream_comp='' downstream_comp='' ecid='0058XfwMFzUFCCPLIek3yf0006ZW0001ze'"
+                  } ]
+               }
+            }, {
+               "id" : 33207545521,
+               "name" : "readme.txt",
+               "type" : "document",
+               "suites" : [ "jee.domain.crmdomain", "jee.server.contractmanagementserver_1" ],
+               "startTime" : "2015-10-15T01:56:37.000+0000",
+               "endTime" : "2015-10-15T01:56:42.000+0000",
+               "startTimeMS" : 1444874197000,
+               "endTimeMS" : 1444874202000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 5,
+                  "linesDetail" : [ {
+                     "id" : 33207545521,
+                     "lineNumber" : 4,
+                     "time" : "2015-10-15T01:56:37Z",
+                     "timeMS" : 1444874197000,
+                     "data" : "Problem Key: OKC-196216 [apps][contracts.previewContract.model.applicationModule.PreviewContractAMImpl]"
+                  }, {
+                     "id" : 33207545521,
+                     "lineNumber" : 5,
+                     "time" : "2015-10-15T01:56:37Z",
+                     "timeMS" : 1444874197000,
+                     "data" : "ECID: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze"
+                  }, {
+                     "id" : 33207545521,
+                     "lineNumber" : 32,
+                     "time" : "2015-10-15T01:56:37Z",
+                     "timeMS" : 1444874197000,
+                     "data" : "ECID: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3"
+                  }, {
+                     "id" : 33207545521,
+                     "lineNumber" : 50,
+                     "time" : "2015-10-15T01:56:37Z",
+                     "timeMS" : 1444874197000,
+                     "data" : "  ECID-Context : 1.0058XfwMFzUFCCPLIek3yf0006ZW0001ze;k^iCUnjE0ZJOoOTLkKPOoLRKlSODoITT_OZCLILIlFJBZVQRoITOZKTJXUPObLPR_UOTj2USjFQSXJOR_V9O^MPQiKTPmUPOgVATdLRTj2TQZORBYVRRoJSTmHOSj2LPhVOT_ILPbPRRiIJRjKVSoITOkUAQnGSU"
+                  }, {
+                     "id" : 33207545521,
+                     "lineNumber" : 633,
+                     "time" : "2015-10-15T01:56:37Z",
+                     "timeMS" : 1444874197000,
+                     "data" : "Dump Arguments: ecid=0058XfwMFzUFCCPLIek3yf0006ZW0001ze, match_all=false, timestamp=1444874197677"
+                  } ]
+               }
+            }, {
+               "id" : 33206458255,
+               "name" : "ContractManagementServer_1-diagnostic.log",
+               "type" : "document",
+               "suites" : [ "jee.domain.crmdomain", "jee.server.contractmanagementserver_1" ],
+               "startTime" : "2015-10-15T01:56:37.598+0000",
+               "endTime" : "2015-10-15T01:58:42.000+0000",
+               "startTimeMS" : 1444874197598,
+               "endTimeMS" : 1444874322000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 25,
+                  "linesDetail" : [ {
+                     "id" : 33206458255,
+                     "lineNumber" : 1,
+                     "time" : "2015-10-15T01:56:37.598Z",
+                     "timeMS" : 1444874197598,
+                     "data" : "2015-10-15T01:56:37.598+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.apps.appslogger] [tid: 32] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [APPS_USER_NAME: APPLICATION_IMPLEMENTATION_CONSULTANT] [APPS_SESSION_ID: 221A3C6A918B62F9E0538841F50A058C] [APPS_THREAD_NAME: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [APPS_TERRITORY: US] [APPS_AUTO_LOG: false] [APPS_USER_ID: 269A87C964F9AC5C76D7901F0A5BB655] [APPS_DB_CONNECTION_URL: jdbc:oracle:thin:@slc03vnm.us.oracle.com:1537/ems17516] [APPS_SOURCE: contracts.previewContract.model.applicationModule.PreviewContractAMImpl] [APPS_PRODUCT: ASM] javax.xml.ws.WebServiceException: oracle.fabric.common.PolicyEnforcementException: WSM-00101 : The specified keystore file /scratch/aime/work/APPTOP/instance/domains/slc03vnl.us.oracle.com/CRMDomain/config/fmwconfig cannot be found; it either does not exist or its path is not included in the application classpath.[["
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 2,
+                     "time" : "2015-10-15T01:56:37.598Z",
+                     "timeMS" : 1444874197598,
+                     "data" : "\tat oracle.j2ee.ws.client.jaxws.DispatchImpl.invoke(DispatchImpl.java:900)"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 241,
+                     "time" : "2015-10-15T01:56:37.598Z",
+                     "timeMS" : 1444874197598,
+                     "data" : "\tat oracle.fabric.common.AbstractSecurityInterceptor.processResult(AbstractSecurityInterceptor.java:184)"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 509,
+                     "time" : "2015-10-15T01:56:37.598Z",
+                     "timeMS" : 1444874197598,
+                     "data" : "\tat oracle.wsm.security.policy.scenario.executor.SecurityScenarioExecutor.initialize(SecurityScenarioExecutor.java:487)"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 522,
+                     "time" : "2015-10-15T01:56:37.598Z",
+                     "timeMS" : 1444874197598,
+                     "data" : "\tat oracle.wsm.security.jps.WsmLegacyKeyStore.<init>(WsmLegacyKeyStore.java:208)"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 528,
+                     "time" : "2015-10-15T01:56:37.598Z",
+                     "timeMS" : 1444874197598,
+                     "data" : "\tat java.io.FileInputStream.open(Native Method)"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 534,
+                     "time" : "2015-10-15T01:56:37.609Z",
+                     "timeMS" : 1444874197609,
+                     "data" : "[2015-10-15T01:56:37.609+00:00] [ContractManagementServer_1] [INCIDENT_ERROR] [OKC-196216] [oracle.apps.appslogger] [tid: 32] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [APPS_USER_NAME: APPLICATION_IMPLEMENTATION_CONSULTANT] [APPS_SESSION_ID: 221A3C6A918B62F9E0538841F50A058C] [APPS_THREAD_NAME: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [APPS_TERRITORY: US] [APPS_LOG_TOKEN_MAP: ERROR BIException in Server Connection] [APPS_AUTO_LOG: false] [APPS_USER_ID: 269A87C964F9AC5C76D7901F0A5BB655] [APPS_DB_CONNECTION_URL: jdbc:oracle:thin:@slc03vnm.us.oracle.com:1537/ems17516] [APPS_SOURCE: contracts.previewContract.model.applicationModule.PreviewContractAMImpl] [APPS_PRODUCT: ASM] There was an error in connecting to BI Publisher. Contact your administrator."
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 535,
+                     "time" : "2015-10-15T01:56:37.677Z",
+                     "timeMS" : 1444874197677,
+                     "data" : "[2015-10-15T01:56:37.677+00:00] [ContractManagementServer_1] [INCIDENT_ERROR] [FND-10007] [oracle.apps.appslogger] [tid: 32] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [APPS_USER_NAME: APPLICATION_IMPLEMENTATION_CONSULTANT] [APPS_SESSION_ID: 221A3C6A918B62F9E0538841F50A058C] [APPS_THREAD_NAME: Thread[[ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)',5,Pooled Threads]] [APPS_USER_ID: 269A87C964F9AC5C76D7901F0A5BB655] [APPS_SOURCE: contracts.previewContract.model.applicationModule.PreviewContractAMImpl] User ID 269A87C964F9AC5C76D7901F0A5BB655 has these user role IDs: 0C1EC807A8EBC4DBA448D191322984C3, 1015B69BD40C7C34280953B49B9C10C6, 11A89677FEF17436CC0C1FA4B5AB6C50, 15544075F8BFB8B1C6EB6BB4E58BDB4C, 20301A8172A211E5AF5B43B5320049EA, 2035E6E072A211E5AF5B43B5320049EA, 2037949072A211E5AF5B43B5320049EA, 2039695072A211E5AF5B43B5320049EA, 203A53B072A211E5AF5B43B5320049EA, 203DFD3072A211E5AF5B43B5320049EA, 20F2F715B578F2D8F4C12D15969B064B, 2210CB31BC2BB82DE050F50A88416441, 320D83FB3B49C3A27471F15D195A8C57, 3C2B9B2072A111E58F38BB85215CF718, 3C302F0072A111E58F38BB85215CF718, 3C31678072A111E58F38BB85215CF718, 3C32A00072A111E58F38BB85215CF718, 3C35110072A111E58F38BB85215CF718, 3C3B047072A111E58F38BB85215CF718, 3C3C8B1072A111E58F38BB85215CF718, 3C3D9C8072A111E58F38BB85215CF718, 3C41460072A111E58F38BB85215CF718, 3C44EF8072A111E58F38BB85215CF718, 3C4600F072A111E58F38BB85215CF718, 3C47126072A111E58F38BB85215CF718, 3C47FCC072A111E58F38BB85215CF718, 3C48E72072A111E58F38BB85215CF718, 3C4A1FA072A111E58F38BB85215CF718, 3C4B311072A111E58F38BB85215CF718, 3C4C428072A111E58F38BB85215CF718, 3C4D53F072A111E58F38BB85215CF718, 3C69677072A111E58F38BB85215CF718, 3C6A9FF072A111E58F38BB85215CF718, 3C6FF72072A111E58F38BB85215CF718, 3C73799072A111E58F38BB85215CF718, 3C7B41C072A111E58F38BB85215CF718, 3C89C0B072A111E58F38BB85215CF718, 3C8CCDF072A111E58F38BB85215CF718, 3C8EF0D072A111E58F38BB85215CF718, 3C8FDB3072A111E58F38BB85215CF718, 3C90C59072A111E58F38BB85215CF718, 3C91D70072A111E58F38BB85215CF718, 3C91DBE79DD00BB3A2F6372DC816403D, 3C97554072A111E58F38BB85215CF718, 3C9A3B7072A111E58F38BB85215CF718, 3C9B73F072A111E58F38BB85215CF718, 3C9C5E5072A111E58F38BB85215CF718, 3CA0F23072A111E58F38BB85215CF718, 3CA251C072A111E58F38BB85215CF718, 3CA3B15072A111E58F38BB85215CF718, 3CA781E072A111E58F38BB85215CF718, 3CA8E17072A111E58F38BB85215CF718, 3CA9CBD072A111E58F38BB85215CF718, 3CAE119072A111E58F38BB85215CF718, 3CB47A3072A111E58F38BB85215CF718, 3CB7606072A111E58F38BB85215CF718, 3CB9834072A111E58F38BB85215CF718, 3CC3E38072A111E58F38BB85215CF718, 3CCC47F072A111E58F38BB85215CF718, 3CCE1CB072A111E58F38BB85215CF718, 3CCF071072A111E58F38BB85215CF718, 3CD87CF072A111E58F38BB85215CF718, 3CDBFF6072A111E58F38BB85215CF718, 3CDD10D072A111E58F38BB85215CF718, 3CDE977072A111E58F38BB85215CF718, 3CE3797072A111E58F38BB85215CF718, 3CE59C5072A111E58F38BB85215CF718, 3CE8F7B072A111E58F38BB85215CF718, 3CEB1A9072A111E58F38BB85215CF718, 3CEC04F072A111E58F38BB85215CF718, 3CEFFC9072A111E58F38BB85215CF718, 3CF10E0072A111E58F38BB85215CF718, 3CF5C8F072A111E58F38BB85215CF718, 3CF6DA6072A111E58F38BB85215CF718, 3CFB6E4072A111E58F38BB85215CF718, 3CFCA6C072A111E58F38BB85215CF718, 3CFEC9A072A111E58F38BB85215CF718, 3D06DFF072A111E58F38BB85215CF718, 3D0AD79072A111E58F38BB85215CF718, 3D0FE0A072A111E58F38BB85215CF718, 3D11B56072A111E58F38BB85215CF718, 3D14266072A111E58F38BB85215CF718, 3D15AD0072A111E58F38BB85215CF718, 3D16BE7072A111E58F38BB85215CF718, 3D17A8D072A111E58F38BB85215CF718, 3D18E15072A111E58F38BB85215CF718, 3D1A67F072A111E58F38BB85215CF718, 3D1D271072A111E58F38BB85215CF718, 3D1E117072A111E58F38BB85215CF718, 3D1F981072A111E58F38BB85215CF718, 3D20827072A111E58F38BB85215CF718, 3D2600B072A111E58F38BB85215CF718, 3D27122072A111E58F38BB85215CF718, 3D28239072A111E58F38BB85215CF718, 3D290DF072A111E58F38BB85215CF718, 3D2D059072A111E58F38BB85215CF718, 3D2E170072A111E58F38BB85215CF718, 3D2F016072A111E58F38BB85215CF718, 3D3039E072A111E58F38BB85215CF718, 3D31997072A111E58F38BB85215CF718, 3D33BC5072A111E58F38BB85215CF718, 3D34CDC072A111E58F38BB85215CF718, 3D3B5D7072A111E58F38BB85215CF718, 3D3D594072A111E58F38BB85215CF718, 3D3FA33072A111E58F38BB85215CF718, 3D4632E072A111E58F38BB85215CF718, 3D5945B072A111E58F38BB85215CF718, 3D5AA54072A111E58F38BB85215CF718, 3D5BB6B072A111E58F38BB85215CF718, 3D6B200072A111E58F38BB85215CF718, 3D6E545072A111E58F38BB85215CF718, 3D81190072A111E58F38BB85215CF718, 3DB0666072A111E58F38BB85215CF718, 3DB1C5F072A111E58F38BB85215CF718, 3DBBFF2072A111E58F38BB85215CF718, 3DCFFC5072A111E58F38BB85215CF718, 3DD3F3F072A111E58F38BB85215CF718, 3DD5056072A111E58F38BB85215CF718, 3DD616D072A111E58F38BB85215CF718, 3DD8AEE072A111E58F38BB85215CF718, 3DE299F072A111E58F38BB85215CF718, 3DEEA7E072A111E58F38BB85215CF718, 3DF13FF072A111E58F38BB85215CF718, 3DF4744072A111E58F38BB85215CF718, 3DF9082072A111E58F38BB85215CF718, 3DFC3C7072A111E58F38BB85215CF718, 3E0CB73072A111E58F38BB85215CF718, 3E10129072A111E58F38BB85215CF718, 3E1A4BC072A111E58F38BB85215CF718, 3E1F54D072A111E58F38BB85215CF718, 3E203F3072A111E58F38BB85215CF718, 3E2150A072A111E58F38BB85215CF718, 3E22621072A111E58F38BB85215CF718, 3E26F5F072A111E58F38BB85215CF718, 3E2918D072A111E58F38BB85215CF718, 3F4C9283A29F9FCCD8AC1F50387D213B, 40C4AE052EC2582286A6A0FB1514656C, 4253E810790133F7FDE7B0E246D9CFAA, 493B660F434AFA42E08DDEE8690ADA28, 568CB03072A111E5BF9A0BE7988DB0E0, 569ED8A072A111E5BF9A0BE7988DB0E0, 56A149A072A111E5BF9A0BE7988DB0E0, 56AB5BC072A111E5BF9A0BE7988DB0E0, 56AEB72072A111E5BF9A0BE7988DB0E0, 56B40E5072A111E5BF9A0BE7988DB0E0, 56B8C94072A111E5BF9A0BE7988DB0E0, 56BA01C072A111E5BF9A0BE7988DB0E0, 56BE6E9072A111E5BF9A0BE7988DB0E0, 56C54C6072A111E5BF9A0BE7988DB0E0, 56C65DD072A111E5BF9A0BE7988DB0E0, 56C7E47072A111E5BF9A0BE7988DB0E0, 56CCC67072A111E5BF9A0BE7988DB0E0, 56D1A87072A111E5BF9A0BE7988DB0E0, 56D4679072A111E5BF9A0BE7988DB0E0, 56D6D89072A111E5BF9A0BE7988DB0E0, 56DB938072A111E5BF9A0BE7988DB0E0, 56E2986072A111E5BF9A0BE7988DB0E0, 56E3F7F072A111E5BF9A0BE7988DB0E0, 56E5307072A111E5BF9A0BE7988DB0E0, 56E641E072A111E5BF9A0BE7988DB0E0, 56E7535072A111E5BF9A0BE7988DB0E0, 56EB720072A111E5BF9A0BE7988DB0E0, 56EC837072A111E5BF9A0BE7988DB0E0, 56ED94E072A111E5BF9A0BE7988DB0E0, 56EFB7C072A111E5BF9A0BE7988DB0E0, 56F3614072A111E5BF9A0BE7988DB0E0, 56FAB44072A111E5BF9A0BE7988DB0E0, 56FBECC072A111E5BF9A0BE7988DB0E0, 56FCD72072A111E5BF9A0BE7988DB0E0, 56FDE89072A111E5BF9A0BE7988DB0E0, 5703B4F072A111E5BF9A0BE7988DB0E0, 5705148072A111E5BF9A0BE7988DB0E0, 57086FE072A111E5BF9A0BE7988DB0E0, 570D03C072A111E5BF9A0BE7988DB0E0, 57105F2072A111E5BF9A0BE7988DB0E0, 5712820072A111E5BF9A0BE7988DB0E0, 5713BA8072A111E5BF9A0BE7988DB0E0, 5715DD6072A111E5BF9A0BE7988DB0E0, 5718004072A111E5BF9A0BE7988DB0E0, 5718EAA072A111E5BF9A0BE7988DB0E0, 571A985072A111E5BF9A0BE7988DB0E0, 571DF3B072A111E5BF9A0BE7988DB0E0, 57240E3072A111E5BF9A0BE7988DB0E0, 5727428072A111E5BF9A0BE7988DB0E0, 5729DA9072A111E5BF9A0BE7988DB0E0, 572AC4F072A111E5BF9A0BE7988DB0E0, 572E6E7072A111E5BF9A0BE7988DB0E0, 5730DF7072A111E5BF9A0BE7988DB0E0, 573217F072A111E5BF9A0BE7988DB0E0, 573461E072A111E5BF9A0BE7988DB0E0, 573B18A072A111E5BF9A0BE7988DB0E0, 573FD39072A111E5BF9A0BE7988DB0E0, 5744677072A111E5BF9A0BE7988DB0E0, 5749226072A111E5BF9A0BE7988DB0E0, 574A5AE072A111E5BF9A0BE7988DB0E0, 574B936072A111E5BF9A0BE7988DB0E0, 57504E5072A111E5BF9A0BE7988DB0E0, 5752BF5072A111E5BF9A0BE7988DB0E0, 5753D0C072A111E5BF9A0BE7988DB0E0, 5755094072A111E5BF9A0BE7988DB0E0, 575CAA6072A111E5BF9A0BE7988DB0E0, 5766BC8072A111E5BF9A0BE7988DB0E0, 576B9E8072A111E5BF9A0BE7988DB0E0, 576D9A5072A111E5BF9A0BE7988DB0E0, 5773B4D072A111E5BF9A0BE7988DB0E0, 578A712072A111E5BF9A0BE7988DB0E0, 5793E70072A111E5BF9A0BE7988DB0E0, 57A1A2A072A111E5BF9A0BE7988DB0E0, 57A3505072A111E5BF9A0BE7988DB0E0, 57A6ABB072A111E5BF9A0BE7988DB0E0, 57ACC63072A111E5BF9A0BE7988DB0E0, 57B7C2B072A111E5BF9A0BE7988DB0E0, 57E4780072A111E5BF9A0BE7988DB0E0, 57F037D072A111E5BF9A0BE7988DB0E0, 57FD091072A111E5BF9A0BE7988DB0E0, 580AEBC072A111E5BF9A0BE7988DB0E0, 5813C56072A111E5BF9A0BE7988DB0E0, 5829BE6072A111E5BF9A0BE7988DB0E0, 5850322072A111E5BF9A0BE7988DB0E0, 5853667072A111E5BF9A0BE7988DB0E0, 585B079072A111E5BFA0BE7988DB0E0, 585C190072A111E5BF9A0BE7988DB0E0, 5866794072A111E5BF9A0BE7988DB0E0, 5867D8D072A111E5BF9A0BE7988DB0E0, 5869D4A072A111E5BF9A0BE7988DB0E0, 58BCB56BC4355120CC9EA37381DCF1D1, 6511982C35F07FE6AB2BE1702B9B3282, 665F22CE2FCB44C66E2B7121FD9F3F10, 734E6860457EA5CEDD12BFC374F6BD3B, 7618B711602D0FB80256A3EAC67A73C2, 83C98FA7BF8B72A6624A2CA267863DF8, 8C239D7B5FCE6753D393003EE5C69F1E, A21C686072A111E5AF553351FBC04713, A21EB25072A111E5AF553351FBC04713, A2214A6072A111E5AF553351FBC04713, A223463072A111E5AF553351FBC04713, A225B73072A111E5AF553351FBC04713, A22A993072A111E5AF553351FBC04713, A22D585072A111E5AF553351FBC04713, A2303E8072A111E5AF553351FBC04713, A23128E072A111E5AF553351FBC04713, A232134072A111E5AF553351FBC04713, A2360AE072A111E5AF553351FBC04713, A246D3C072A111E5AF553351FBC04713, A249E10072A111E5AF553351FBC04713, A24DFFB072A111E5AF553351FBC04713, A25BBB5072A111E5AF553351FBC04713, A50CA3219B0E5AA0D9F651FCA6CAF84F, ANONYMOUS_ROLE_GUID, AUTHENTICATED_ROLE_GUID, C1FD87A072A011E5BF83AD7CA01A5293, C1FEE73072A011E5BF83AD7CA01A5293, C20501B072A011E5BF83AD7CA01A5293, C2074BA072A011E5BF83AD7CA01A5293, C2096E8072A011E5BF83AD7CA01A5293, C20BB87072A011E5BF83AD7CA01A5293, C20DDB5072A011E5BF83AD7CA01A5293, C20F13D072A011E5BF83AD7CA01A5293, C210254072A011E5BF83AD7CA01A5293, C21136B072A011E5BF83AD7CA01A5293, C2146B0072A011E5BF83AD7CA01A5293, C215556072A011E5BF83AD7CA01A5293, C21889B072A011E5BF83AD7CA01A5293, C219741072A011E5BF83AD7CA01A5293, C21CCF7072A011E5BF83AD7CA01A5293, C21DB9D072A011E5BF83AD7CA01A5293, C22003C072A011E5BF83AD7CA01A5293, C223D45072A011E5BF83AD7CA01A5293, C22CD50072A011E5BF83AD7CA01A5293, C234762072A011E5BF83AD7CA01A5293, C239A64072A011E5BF83AD7CA01A5293, C23B05D072A011E5BF83AD7CA01A5293, C23C656072A011E5BF83AD7CA01A5293, C23D9DE072A011E5BF83AD7CA01A5293, C23FC0C072A01"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 536,
+                     "time" : "2015-10-15T01:56:38.084Z",
+                     "timeMS" : 1444874198084,
+                     "data" : "[2015-10-15T01:56:38.084+00:00] [ContractManagementServer_1] [INCIDENT_ERROR] [FND-10000] [oracle.apps.appslogger] [tid: 32] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [APPS_USER_NAME: APPLICATION_IMPLEMENTATION_CONSULTANT] [APPS_SESSION_ID: 221A3C6A918B62F9E0538841F50A058C] [APPS_THREAD_NAME: Thread[[ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)',5,Pooled Threads]] [APPS_USER_ID: 269A87C964F9AC5C76D7901F0A5BB655] [APPS_SOURCE: fnd.applcore.log.AppsLogServiceImpl._createIncident] An incident was created. The details are: Incident details are: IncidentID=5[["
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 544,
+                     "time" : "2015-10-15T01:56:38.086Z",
+                     "timeMS" : 1444874198086,
+                     "data" : "[2015-10-15T01:56:38.086+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.apps.appslogger] [tid: 32] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [APPS_USER_NAME: APPLICATION_IMPLEMENTATION_CONSULTANT] [APPS_SESSION_ID: 221A3C6A918B62F9E0538841F50A058C] [APPS_THREAD_NAME: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [APPS_TERRITORY: US] [APPS_AUTO_LOG: false] [APPS_USER_ID: 269A87C964F9AC5C76D7901F0A5BB655] [APPS_DB_CONNECTION_URL: jdbc:oracle:thin:@slc03vnm.us.oracle.com:1537/ems17516] [APPS_SOURCE: contracts.previewContract.model.view.PrintTemplateVOImpl] [APPS_PRODUCT: ASM] java.lang.NullPointerException[["
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 545,
+                     "time" : "2015-10-15T01:56:38.086Z",
+                     "timeMS" : 1444874198086,
+                     "data" : "\tat oracle.apps.contracts.previewContract.model.applicationModule.PreviewContractAMImpl.getTemplates(PreviewContractAMImpl.java:1112)"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 802,
+                     "time" : "2015-10-15T01:56:38.292Z",
+                     "timeMS" : 1444874198292,
+                     "data" : "[2015-10-15T01:56:38.292+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.apps.appslogger] [tid: 32] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [APPS_USER_NAME: APPLICATION_IMPLEMENTATION_CONSULTANT] [APPS_SESSION_ID: 221A3C6A918B62F9E0538841F50A058C] [APPS_THREAD_NAME: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [APPS_TERRITORY: US] [APPS_AUTO_LOG: false] [APPS_USER_ID: 269A87C964F9AC5C76D7901F0A5BB655] [APPS_DB_CONNECTION_URL: jdbc:oracle:thin:@slc03vnm.us.oracle.com:1537/ems17516] [APPS_SOURCE: contracts.previewContract.model.applicationModule.PreviewContractAMImpl] [APPS_PRODUCT: ASM] javax.xml.ws.WebServiceException: oracle.fabric.common.PolicyEnforcementException: WSM-00101 : The specified keystore file /scratch/aime/work/APPTOP/instance/domains/slc03vnl.us.oracle.com/CRMDomain/config/fmwconfig cannot be found; it either does not exist or its path is not included in the application classpath.[["
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 803,
+                     "time" : "2015-10-15T01:56:38.292Z",
+                     "timeMS" : 1444874198292,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.292+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"javax.xml.ws.WebServiceException\" ti=\"DispatchImpl.invoke .. ExecuteThread.run\" tg=\"TieTagError\" h=\"TieSigHashProblemStacktraceb26966ee5799a0bca4f29dcfa8a7bfda\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace64fba990a7d640166358793e18c64c9c\" bo=\"1\" ln=\"803\" nl=\"238\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 805,
+                     "time" : "2015-10-15T01:56:38.292Z",
+                     "timeMS" : 1444874198292,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.292+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.fabric.common.PolicyEnforcementException\" ti=\"AbstractSecurityInterceptor.processResult .. AuthenticatedSubject.doAs\" h=\"TieSigHashProblemStacktraceff91ab625f12693452e51f580607af58\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace69febd0c56f102c165942ceb0f0905c0\" bo=\"2\" ln=\"1042\" nl=\"266\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 808,
+                     "time" : "2015-10-15T01:56:38.292Z",
+                     "timeMS" : 1444874198292,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.292+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.common.sdk.WSMException\" ti=\"SecurityScenarioExecutor.initialize .. BindingSecurityInterceptor.processRequest\" h=\"TieSigHashProblemStacktracebcdf359ca3d368cf98cf71d1d6eaab8a\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace04bbea172220dd6d22b4f682be8a4edc\" bo=\"3\" ln=\"1310\" nl=\"11\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 811,
+                     "time" : "2015-10-15T01:56:38.292Z",
+                     "timeMS" : 1444874198292,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.292+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.security.SecurityException\" ti=\"WsmLegacyKeyStore.&amp;lt;init&amp;gt; .. SecurityScenarioExecutor.initialize\" h=\"TieSigHashProblemStacktrace62f11c314ad4ad7242ef7b78acea9e51\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace62f11c314ad4ad7242ef7b78acea9e51\" bo=\"4\" ln=\"1323\" nl=\"4\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 814,
+                     "time" : "2015-10-15T01:56:38.292Z",
+                     "timeMS" : 1444874198292,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.292+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"java.io.FileNotFoundException\" ti=\"FileInputStream.open .. WsmLegacyKeyStore.&amp;lt;init&amp;gt;\" h=\"TieSigHashProblemStacktrace6c7a441b77fb35f81c00040dbbdc8f4e\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace6c7a441b77fb35f81c00040dbbdc8f4e\" bo=\"5\" ln=\"1329\" nl=\"4\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 817,
+                     "time" : "2015-10-15T01:56:38.32Z",
+                     "timeMS" : 1444874198320,
+                     "data" : "[2015-10-15T01:56:38.320+00:00] [ContractManagementServer_1] [INCIDENT_ERROR] [] [oracle.apps.appslogger] [tid: 32] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [APPS_USER_NAME: APPLICATION_IMPLEMENTATION_CONSULTANT] [APPS_SESSION_ID: 221A3C6A918B62F9E0538841F50A058C] [APPS_THREAD_NAME: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [APPS_TERRITORY: US] [APPS_AUTO_LOG: false] [APPS_USER_ID: 269A87C964F9AC5C76D7901F0A5BB655] [APPS_DB_CONNECTION_URL: jdbc:oracle:thin:@slc03vnm.us.oracle.com:1537/ems17516] [APPS_SOURCE: contracts.previewContract.model.applicationModule.PreviewContractAMImpl] [APPS_PRODUCT: ASM] javax.xml.ws.WebServiceException: oracle.fabric.common.PolicyEnforcementException: WSM-00101 : The specified keystore file /scratch/aime/work/APPTOP/instance/domains/slc03vnl.us.oracle.com/CRMDomain/config/fmwconfig cannot be found; it either does not exist or its path is not included in the application classpath.[["
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 818,
+                     "time" : "2015-10-15T01:56:38.32Z",
+                     "timeMS" : 1444874198320,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.320+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"javax.xml.ws.WebServiceException\" ti=\"DispatchImpl.invoke .. ExecuteThread.run\" tg=\"TieTagError\" h=\"TieSigHashProblemStacktraceb26966ee5799a0bca4f29dcfa8a7bfda\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace64fba990a7d640166358793e18c64c9c\" bo=\"1\" ln=\"1336\" nl=\"238\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 820,
+                     "time" : "2015-10-15T01:56:38.32Z",
+                     "timeMS" : 1444874198320,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.320+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.fabric.common.PolicyEnforcementException\" ti=\"AbstractSecurityInterceptor.processResult .. AuthenticatedSubject.doAs\" h=\"TieSigHashProblemStacktraceff91ab625f12693452e51f580607af58\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace69febd0c56f102c165942ceb0f0905c0\" bo=\"2\" ln=\"1575\" nl=\"266\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 823,
+                     "time" : "2015-10-15T01:56:38.32Z",
+                     "timeMS" : 1444874198320,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.320+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.common.sdk.WSMException\" ti=\"SecurityScenarioExecutor.initialize .. BindingSecurityInterceptor.processRequest\" h=\"TieSigHashProblemStacktracebcdf359ca3d368cf98cf71d1d6eaab8a\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace04bbea172220dd6d22b4f682be8a4edc\" bo=\"3\" ln=\"1843\" nl=\"11\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 826,
+                     "time" : "2015-10-15T01:56:38.32Z",
+                     "timeMS" : 1444874198320,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.320+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.security.SecurityException\" ti=\"WsmLegacyKeyStore.&amp;lt;init&amp;gt; .. SecurityScenarioExecutor.initialize\" h=\"TieSigHashProblemStacktrace62f11c314ad4ad7242ef7b78acea9e51\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace62f11c314ad4ad7242ef7b78acea9e51\" bo=\"4\" ln=\"1856\" nl=\"4\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 829,
+                     "time" : "2015-10-15T01:56:38.32Z",
+                     "timeMS" : 1444874198320,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.320+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"java.io.FileNotFoundException\" ti=\"FileInputStream.open .. WsmLegacyKeyStore.&amp;lt;init&amp;gt;\" h=\"TieSigHashProblemStacktrace6c7a441b77fb35f81c00040dbbdc8f4e\" bh=\"TieSigBlockHashProblemStacktrace7a03b9bf21c5b836177868aa349f0a2a\" ph=\"TieSigPrefixHashProblemStacktrace6c7a441b77fb35f81c00040dbbdc8f4e\" bo=\"5\" ln=\"1862\" nl=\"4\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 832,
+                     "time" : "2015-10-15T01:56:38.325Z",
+                     "timeMS" : 1444874198325,
+                     "data" : "[2015-10-15T01:56:38.325+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.apps.appslogger] [tid: 32] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [APPS_USER_NAME: APPLICATION_IMPLEMENTATION_CONSULTANT] [APPS_SESSION_ID: 221A3C6A918B62F9E0538841F50A058C] [APPS_THREAD_NAME: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [APPS_TERRITORY: US] [APPS_AUTO_LOG: false] [APPS_USER_ID: 269A87C964F9AC5C76D7901F0A5BB655] [APPS_DB_CONNECTION_URL: jdbc:oracle:thin:@slc03vnm.us.oracle.com:1537/ems17516] [APPS_SOURCE: contracts.previewContract.model.view.PrintTemplateVOImpl] [APPS_PRODUCT: ASM] java.lang.NullPointerException[["
+                  }, {
+                     "id" : 33206458255,
+                     "lineNumber" : 833,
+                     "time" : "2015-10-15T01:56:38.325Z",
+                     "timeMS" : 1444874198325,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.325+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"java.lang.NullPointerException\" ti=\"PreviewContractAMImpl.getTemplates .. ExecuteThread.run\" tg=\"TieTagError\" h=\"TieSigHashProblemStacktrace06c4672490ba8614e007f666a85da251\" bh=\"TieSigBlockHashProblemStacktracee6e8cd7b2647ba7c809bd61d74987444\" ph=\"TieSigPrefixHashProblemStacktrace3cbf21694920c74ccc440b59d6279581\" bo=\"1\" ln=\"1869\" nl=\"256\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  } ]
+               }
+            }, {
+               "id" : 33206458319,
+               "name" : "CRMDomain.log",
+               "type" : "document",
+               "suites" : [ "jee.domain.crmdomain", "jee.server.adminserver" ],
+               "startTime" : "2015-10-15T01:50:16.155+0000",
+               "endTime" : "2015-10-15T02:04:16.000+0000",
+               "startTimeMS" : 1444873816155,
+               "endTimeMS" : 1444874656000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 23,
+                  "linesDetail" : [ {
+                     "id" : 33206458319,
+                     "lineNumber" : 6,
+                     "time" : "2015-10-15T01:56:37.591Z",
+                     "timeMS" : 1444874197591,
+                     "data" : "####<Oct 15, 2015 1:56:37 AM UTC> <Error> <oracle.wsm.resources.security> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874197591> <WSM-00101> <The specified keystore file /scratch/aime/work/APPTOP/instance/domains/slc03vnl.us.oracle.com/CRMDomain/config/fmwconfig cannot be found; it either does not exist or its path is not included in the application classpath.> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 7,
+                     "time" : "2015-10-15T01:56:37.592Z",
+                     "timeMS" : 1444874197592,
+                     "data" : "####<Oct 15, 2015 1:56:37 AM UTC> <Error> <oracle.wsm.resources.enforcement> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874197592> <WSM-07501> <Failure in Oracle WSM Agent processRequest, category=security, function=agent.function.client, application=ContractManagementApp, composite=null, modelObj=PublicReportWSSServiceService, policy=null, policyVersion=null, assertionName=null."
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 9,
+                     "time" : "2015-10-15T01:56:37.592Z",
+                     "timeMS" : 1444874197592,
+                     "data" : "\tat oracle.wsm.security.policy.scenario.executor.SecurityScenarioExecutor.initialize(SecurityScenarioExecutor.java:487)"
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 291,
+                     "time" : "2015-10-15T01:56:37.592Z",
+                     "timeMS" : 1444874197592,
+                     "data" : "\tat oracle.wsm.security.jps.WsmLegacyKeyStore.<init>(WsmLegacyKeyStore.java:208)"
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 576,
+                     "time" : "2015-10-15T01:56:37.592Z",
+                     "timeMS" : 1444874197592,
+                     "data" : "\tat java.io.FileInputStream.open(Native Method)"
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 864,
+                     "time" : "2015-10-15T01:56:37.94Z",
+                     "timeMS" : 1444874197940,
+                     "data" : "####<Oct 15, 2015 1:56:37 AM UTC> <Emergency> <oracle.dfw.incident> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874197940> <BEA-000000> <incident 5 created with problem key \"OKC-196216 [apps][contracts.previewContract.model.applicationModule.PreviewContractAMImpl]\"> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 865,
+                     "time" : "2015-10-15T01:56:38.22Z",
+                     "timeMS" : 1444874198220,
+                     "data" : "####<Oct 15, 2015 1:56:38 AM UTC> <Error> <oracle.wsm.resources.security> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874198220> <WSM-00101> <The specified keystore file /scratch/aime/work/APPTOP/instance/domains/slc03vnl.us.oracle.com/CRMDomain/config/fmwconfig cannot be found; it either does not exist or its path is not included in the application classpath.> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 866,
+                     "time" : "2015-10-15T01:56:38.277Z",
+                     "timeMS" : 1444874198277,
+                     "data" : "####<Oct 15, 2015 1:56:38 AM UTC> <Error> <oracle.wsm.resources.enforcement> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874198277> <WSM-07501> <Failure in Oracle WSM Agent processRequest, category=security, function=agent.function.client, application=ContractManagementApp, composite=null, modelObj=PublicReportWSSServiceService, policy=null, policyVersion=null, assertionName=null."
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 868,
+                     "time" : "2015-10-15T01:56:38.277Z",
+                     "timeMS" : 1444874198277,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.277+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.common.sdk.WSMException\" ti=\"SecurityScenarioExecutor.initialize .. ExecuteThread.run\" tg=\"TieTagError\" h=\"TieSigHashProblemStacktrace35273bdbab9010af11194cd84661c404\" bh=\"TieSigBlockHashProblemStacktracef9f425cd68f37f1d09335453e8cf7e5d\" ph=\"TieSigPrefixHashProblemStacktrace04bbea172220dd6d22b4f682be8a4edc\" bo=\"1\" ln=\"868\" nl=\"281\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 870,
+                     "time" : "2015-10-15T01:56:38.277Z",
+                     "timeMS" : 1444874198277,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.277+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.security.SecurityException\" ti=\"WsmLegacyKeyStore.&amp;lt;init&amp;gt; .. ExecuteThread.run\" h=\"TieSigHashProblemStacktracec10e90b951a634cf04244bff119f00be\" bh=\"TieSigBlockHashProblemStacktracef9f425cd68f37f1d09335453e8cf7e5d\" ph=\"TieSigPrefixHashProblemStacktrace807023478be9dbc9d86603816b98a814\" bo=\"2\" ln=\"1150\" nl=\"284\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 872,
+                     "time" : "2015-10-15T01:56:38.277Z",
+                     "timeMS" : 1444874198277,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.277+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"java.io.FileNotFoundException\" ti=\"FileInputStream.open .. ExecuteThread.run\" h=\"TieSigHashProblemStacktraceecb979adb09ffcc56609eadca6cc29c7\" bh=\"TieSigBlockHashProblemStacktracef9f425cd68f37f1d09335453e8cf7e5d\" ph=\"TieSigPrefixHashProblemStacktracebd572b2db892e2c9155fd4da5cf30d95\" bo=\"3\" ln=\"1435\" nl=\"287\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 874,
+                     "time" : "2015-10-15T01:56:39.101Z",
+                     "timeMS" : 1444874199101,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199101> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_CustInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 875,
+                     "time" : "2015-10-15T01:56:39.104Z",
+                     "timeMS" : 1444874199104,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199104> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_CustInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 876,
+                     "time" : "2015-10-15T01:56:39.104Z",
+                     "timeMS" : 1444874199104,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199104> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_CustInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 877,
+                     "time" : "2015-10-15T01:56:39.106Z",
+                     "timeMS" : 1444874199106,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199106> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_CustInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 878,
+                     "time" : "2015-10-15T01:56:39.307Z",
+                     "timeMS" : 1444874199307,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199307> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_IntInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 879,
+                     "time" : "2015-10-15T01:56:39.308Z",
+                     "timeMS" : 1444874199308,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199308> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_IntInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 880,
+                     "time" : "2015-10-15T01:56:39.309Z",
+                     "timeMS" : 1444874199309,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199309> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_IntInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 881,
+                     "time" : "2015-10-15T01:56:39.309Z",
+                     "timeMS" : 1444874199309,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199309> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_IntInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 882,
+                     "time" : "2015-10-15T01:56:39.437Z",
+                     "timeMS" : 1444874199437,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199437> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_ClauseNumbLevelCode has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 883,
+                     "time" : "2015-10-15T01:56:39.438Z",
+                     "timeMS" : 1444874199438,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199438> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_ClauseNumbLevelCode has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 884,
+                     "time" : "2015-10-15T01:56:39.439Z",
+                     "timeMS" : 1444874199439,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199439> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_ClauseNumbLevelCode has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  }, {
+                     "id" : 33206458319,
+                     "lineNumber" : 885,
+                     "time" : "2015-10-15T01:56:39.44Z",
+                     "timeMS" : 1444874199440,
+                     "data" : "####<Oct 15, 2015 1:56:39 AM UTC> <Error> <oracle.adf.model.log.UserHintsImpact> <slc03vnl> <ContractManagementServer_1> <[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'> <APPLICATION_IMPLEMENTATION_CONSULTANT> <> <0058XfwMFzUFCCPLIek3yf0006ZW0001ze> <1444874199440> <BEA-000000> <Ignoring Mandatory Flag. ListBinding:LOV_ClauseNumbLevelCode has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO> "
+                  } ]
+               }
+            }, {
+               "id" : 33206458254,
+               "name" : "ContractManagementServer_1-diagnostic.log",
+               "type" : "document",
+               "suites" : [ "jee.domain.crmdomain", "jee.server.contractmanagementserver_1" ],
+               "startTime" : "2015-10-15T01:54:41.086+0000",
+               "endTime" : "2015-10-15T02:04:34.000+0000",
+               "startTimeMS" : 1444874081086,
+               "endTimeMS" : 1444874674000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 23,
+                  "linesDetail" : [ {
+                     "id" : 33206458254,
+                     "lineNumber" : 5,
+                     "time" : "2015-10-15T01:56:37.591Z",
+                     "timeMS" : 1444874197591,
+                     "data" : "[2015-10-15T01:56:37.591+00:00] [ContractManagementServer_1] [ERROR] [WSM-00101] [oracle.wsm.resources.security] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] [WSM_POLICY_NAME: oracle/wss_saml_token_bearer_client_policy] The specified keystore file /scratch/aime/work/APPTOP/instance/domains/slc03vnl.us.oracle.com/CRMDomain/config/fmwconfig cannot be found; it either does not exist or its path is not included in the application classpath."
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 6,
+                     "time" : "2015-10-15T01:56:37.592Z",
+                     "timeMS" : 1444874197592,
+                     "data" : "[2015-10-15T01:56:37.592+00:00] [ContractManagementServer_1] [ERROR] [WSM-07501] [oracle.wsm.resources.enforcement] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] [WSM_POLICY_NAME: oracle/wss_saml_token_bearer_client_policy] Failure in Oracle WSM Agent processRequest, category=security, function=agent.function.client, application=ContractManagementApp, composite=null, modelObj=PublicReportWSSServiceService, policy=null, policyVersion=null, assertionName=null.[["
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 8,
+                     "time" : "2015-10-15T01:56:37.592Z",
+                     "timeMS" : 1444874197592,
+                     "data" : "\tat oracle.wsm.security.policy.scenario.executor.SecurityScenarioExecutor.initialize(SecurityScenarioExecutor.java:487)"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 290,
+                     "time" : "2015-10-15T01:56:37.592Z",
+                     "timeMS" : 1444874197592,
+                     "data" : "\tat oracle.wsm.security.jps.WsmLegacyKeyStore.<init>(WsmLegacyKeyStore.java:208)"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 296,
+                     "time" : "2015-10-15T01:56:37.592Z",
+                     "timeMS" : 1444874197592,
+                     "data" : "\tat java.io.FileInputStream.open(Native Method)"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 302,
+                     "time" : "2015-10-15T01:56:37.94Z",
+                     "timeMS" : 1444874197940,
+                     "data" : "[2015-10-15T01:56:37.940+00:00] [ContractManagementServer_1] [INCIDENT_ERROR] [DFW-40104] [oracle.dfw.incident] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [errid: 5] [detailLoc: /scratch/aime/work/APPTOP/instance/domains/slc03vnl.us.oracle.com/CRMDomain/servers/ContractManagementServer_1/adr/diag/ofm/fusionapps/ContractManagementApp/incident/incdir_5] [probKey: OKC-196216 [apps][contracts.previewContract.model.applicationModule.PreviewContractAMImpl]] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] incident 5 created with problem key \"OKC-196216 [apps][contracts.previewContract.model.applicationModule.PreviewContractAMImpl]\""
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 303,
+                     "time" : "2015-10-15T01:56:38.22Z",
+                     "timeMS" : 1444874198220,
+                     "data" : "[2015-10-15T01:56:38.220+00:00] [ContractManagementServer_1] [ERROR] [WSM-00101] [oracle.wsm.resources.security] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] [WSM_POLICY_NAME: oracle/wss_saml_token_bearer_client_policy] The specified keystore file /scratch/aime/work/APPTOP/instance/domains/slc03vnl.us.oracle.com/CRMDomain/config/fmwconfig cannot be found; it either does not exist or its path is not included in the application classpath."
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 304,
+                     "time" : "2015-10-15T01:56:38.277Z",
+                     "timeMS" : 1444874198277,
+                     "data" : "[2015-10-15T01:56:38.277+00:00] [ContractManagementServer_1] [ERROR] [WSM-07501] [oracle.wsm.resources.enforcement] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] [WSM_POLICY_NAME: oracle/wss_saml_token_bearer_client_policy] Failure in Oracle WSM Agent processRequest, category=security, function=agent.function.client, application=ContractManagementApp, composite=null, modelObj=PublicReportWSSServiceService, policy=null, policyVersion=null, assertionName=null.[["
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 306,
+                     "time" : "2015-10-15T01:56:38.277Z",
+                     "timeMS" : 1444874198277,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.277+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.common.sdk.WSMException\" ti=\"SecurityScenarioExecutor.initialize .. ExecuteThread.run\" tg=\"TieTagError\" h=\"TieSigHashProblemStacktrace35273bdbab9010af11194cd84661c404\" bh=\"TieSigBlockHashProblemStacktrace70605b03f960c36f0ddd6ea0c1f71d42\" ph=\"TieSigPrefixHashProblemStacktrace04bbea172220dd6d22b4f682be8a4edc\" bo=\"1\" ln=\"306\" nl=\"281\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 308,
+                     "time" : "2015-10-15T01:56:38.277Z",
+                     "timeMS" : 1444874198277,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.277+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"oracle.wsm.security.SecurityException\" ti=\"WsmLegacyKeyStore.&amp;lt;init&amp;gt; .. SecurityScenarioExecutor.initialize\" h=\"TieSigHashProblemStacktrace62f11c314ad4ad7242ef7b78acea9e51\" bh=\"TieSigBlockHashProblemStacktrace70605b03f960c36f0ddd6ea0c1f71d42\" ph=\"TieSigPrefixHashProblemStacktrace62f11c314ad4ad7242ef7b78acea9e51\" bo=\"2\" ln=\"588\" nl=\"4\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 311,
+                     "time" : "2015-10-15T01:56:38.277Z",
+                     "timeMS" : 1444874198277,
+                     "data" : "[[TieSig]] ft=\"2015-10-15T01:56:38.277+0000\" k=\"TieSigKeyProblemStacktrace\" t=\"Problem\" st=\"StackTrace\" n=\"java.io.FileNotFoundException\" ti=\"FileInputStream.open .. WsmLegacyKeyStore.&amp;lt;init&amp;gt;\" h=\"TieSigHashProblemStacktrace6c7a441b77fb35f81c00040dbbdc8f4e\" bh=\"TieSigBlockHashProblemStacktrace70605b03f960c36f0ddd6ea0c1f71d42\" ph=\"TieSigPrefixHashProblemStacktrace6c7a441b77fb35f81c00040dbbdc8f4e\" bo=\"3\" ln=\"594\" nl=\"4\" tr=\"true\"[[Flds]]<fld><n>user.event.oracle.ecids</n><v>0058XfwMFzUFCCPLIek3yf0006ZW0001ze</v></fld>[[/Flds]] [[/TieSig]]"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 314,
+                     "time" : "2015-10-15T01:56:39.101Z",
+                     "timeMS" : 1444874199101,
+                     "data" : "[2015-10-15T01:56:39.101+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_CustInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 315,
+                     "time" : "2015-10-15T01:56:39.104Z",
+                     "timeMS" : 1444874199104,
+                     "data" : "[2015-10-15T01:56:39.104+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_CustInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 316,
+                     "time" : "2015-10-15T01:56:39.104Z",
+                     "timeMS" : 1444874199104,
+                     "data" : "[2015-10-15T01:56:39.104+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_CustInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 317,
+                     "time" : "2015-10-15T01:56:39.106Z",
+                     "timeMS" : 1444874199106,
+                     "data" : "[2015-10-15T01:56:39.106+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_CustInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 318,
+                     "time" : "2015-10-15T01:56:39.307Z",
+                     "timeMS" : 1444874199307,
+                     "data" : "[2015-10-15T01:56:39.307+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_IntInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 319,
+                     "time" : "2015-10-15T01:56:39.308Z",
+                     "timeMS" : 1444874199308,
+                     "data" : "[2015-10-15T01:56:39.308+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_IntInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 320,
+                     "time" : "2015-10-15T01:56:39.309Z",
+                     "timeMS" : 1444874199309,
+                     "data" : "[2015-10-15T01:56:39.309+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_IntInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 321,
+                     "time" : "2015-10-15T01:56:39.309Z",
+                     "timeMS" : 1444874199309,
+                     "data" : "[2015-10-15T01:56:39.309+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_IntInvNumbType has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 322,
+                     "time" : "2015-10-15T01:56:39.437Z",
+                     "timeMS" : 1444874199437,
+                     "data" : "[2015-10-15T01:56:39.437+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_ClauseNumbLevelCode has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 323,
+                     "time" : "2015-10-15T01:56:39.438Z",
+                     "timeMS" : 1444874199438,
+                     "data" : "[2015-10-15T01:56:39.438+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_ClauseNumbLevelCode has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 324,
+                     "time" : "2015-10-15T01:56:39.439Z",
+                     "timeMS" : 1444874199439,
+                     "data" : "[2015-10-15T01:56:39.439+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_ClauseNumbLevelCode has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  }, {
+                     "id" : 33206458254,
+                     "lineNumber" : 325,
+                     "time" : "2015-10-15T01:56:39.44Z",
+                     "timeMS" : 1444874199440,
+                     "data" : "[2015-10-15T01:56:39.440+00:00] [ContractManagementServer_1] [ERROR] [] [oracle.adf.model.log.UserHintsImpact] [tid: [ACTIVE].ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] Ignoring Mandatory Flag. ListBinding:LOV_ClauseNumbLevelCode has nullvalue position set to 'none' in oracle.apps.contracts.businessUnitSetup.model.view.BuImplOptionSalesVO"
+                  } ]
+               }
+            }, {
+               "id" : 33206458298,
+               "name" : "FunctionalSetupServer_1-clickhistory.log",
+               "type" : "document",
+               "suites" : [ "jee.domain.commondomain", "jee.server.functionalsetupserver_1" ],
+               "startTime" : "2015-10-15T01:50:18.466+0000",
+               "endTime" : "2015-10-15T02:04:36.000+0000",
+               "startTimeMS" : 1444873818466,
+               "endTimeMS" : 1444874676000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 2,
+                  "linesDetail" : [ {
+                     "id" : 33206458298,
+                     "lineNumber" : 301,
+                     "time" : "2015-10-15T01:56:34.906Z",
+                     "timeMS" : 1444874194906,
+                     "data" : "[2015-10-15T01:56:21.773+00:00] [FunctionalSetupServer_1] [NOTIFICATION] [SOC] [oracle.clickhistory.EUM] [tid: 59] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4] [CH_CMP: oracle.adf.RichCommandButton] [CH_CST: 1444874198901] [APP: SetupApp#V2.0] [DSID: 0000L1dD1TBFCCPLIek3yf1M7h8r0002LF] [CH_CNM: Save and Close] [CH_TYP: action] [CH_CID: pt1:r1:0:r0:2:topAppPanel:applicationsTable1:r1:0:r1:0:r2:0:cb1] [CH_RVD: /FSGenericTaskFlow/DynamicRegionContainer] [CH_WID: 18gxrhdahi] [CH_EID: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze] [CH_VID: /FuseTaskListManagerTop] "
+                  }, {
+                     "id" : 33206458298,
+                     "lineNumber" : 328,
+                     "time" : "2015-10-15T01:56:58.842Z",
+                     "timeMS" : 1444874218842,
+                     "data" : "[2015-10-15T01:56:41.789+00:00] [FunctionalSetupServer_1] [NOTIFICATION] [EOC] [oracle.clickhistory.EUM] [tid: 37] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4] [CH_CET: 1444874218842] [CH_RRT: 1444874218698] [CH_CST: 1444874198901] [APP: SetupApp#V2.0] [DSID: 0000L1dD1TBFCCPLIek3yf1M7h8r0002LF] [CH_TTT: 19941] [CH_RNT: 144] [CH_EID: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze] "
+                  } ]
+               }
+            }, {
+               "id" : 33206461846,
+               "name" : "ContractManagementServer_1-clickhistory.log",
+               "type" : "document",
+               "suites" : [ "jee.domain.crmdomain", "jee.server.contractmanagementserver_1" ],
+               "startTime" : "2015-10-15T01:50:20.682+0000",
+               "endTime" : "2015-10-15T02:04:36.000+0000",
+               "startTimeMS" : 1444873820682,
+               "endTimeMS" : 1444874676000,
+               "duration" : -1,
+               "lines" : {
+                  "totalLines" : 1,
+                  "linesDetail" : [ {
+                     "id" : 33206461846,
+                     "lineNumber" : 255,
+                     "time" : "2015-10-15T01:56:46.665Z",
+                     "timeMS" : 1444874206665,
+                     "data" : "[2015-10-15T01:56:36.813+00:00] [ContractManagementServer_1] [NOTIFICATION] [SOC] [oracle.clickhistory.EUM] [tid: 32] [userId: APPLICATION_IMPLEMENTATION_CONSULTANT] [ecid: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze,0:4:164:3] [CH_CMP: oracle.adf.RichCommandButton] [CH_CST: 1444874198901] [APP: ContractManagementApp#V2.0] [DSID: 0000L1dDa2HFCCPLIek3yf1M7g4P0002ym] [CH_CNM: Save and Close] [CH_TYP: action] [CH_CID: pt1:r1:0:r0:2:topAppPanel:applicationsTable1:r1:0:r1:0:r2:0:cb1] [CH_RVD: /FSGenericTaskFlow/DynamicRegionContainer] [CH_WID: 1j987mhqg] [CH_EID: 0058XfwMFzUFCCPLIek3yf0006ZW0001ze] [CH_VID: /oracle/adfinternal/view/rich/bootstrap/RemoteRegionBootstrap.jspx] "
+                  } ]
+               }
+            } ]
+         }
+      } ]
+   }
+}
